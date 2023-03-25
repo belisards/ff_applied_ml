@@ -1,4 +1,5 @@
 data/
+logs/
 metadata/
 __pycache__/
 *.lock

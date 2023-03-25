@@ -54,7 +54,10 @@ def load_files(meta='../metadata/metadata.json', background='../data/FFChallenge
 
     holdout = pd.read_csv(holdout, low_memory=False)
     X_holdout = background[background.index.isin(holdout.dropna().index)]
-    Y_holdout = holdout.dropna()
+    Y_holdout = holdout.dropna().copy()
+    # Y_holdout['eviction'] = Y_holdout['eviction'].astype('int')
+    # Y_holdout['layoff'] = Y_holdout['layoff'].astype('int')
+    # Y_holdout['jobTraining'] = Y_holdout['jobTraining'].astype('int')
     holdout = X_holdout.join(Y_holdout).set_index('challengeID')
     
     data_train, data_test = train_test_split(data, test_size=0.2, random_state=4242)
@@ -87,6 +90,8 @@ def prepare_data(df, target,mi_threshold=0.01):
     assert has_missing(X) == False or has_missing(Y) == False
 
     return X, Y
+
+
 
 # def gen_data(train, cv, target=['gpa']):
     
