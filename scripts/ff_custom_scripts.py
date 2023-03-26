@@ -71,7 +71,7 @@ def load_files(meta='../metadata/metadata.json', background='../data/FFChallenge
 def has_missing(df):
     return df.isnull().values.any()
 
-def prepare_data(df, target,mi_threshold=0.00):
+def prepare_data(df, target,mi_threshold=0.001):
     
     Y = df[target].dropna()
     X = df.iloc[:, :-6].loc[Y.index]
