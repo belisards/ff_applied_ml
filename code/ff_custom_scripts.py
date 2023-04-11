@@ -7,7 +7,6 @@ from sklearn.metrics import mean_squared_error, r2_score, brier_score_loss, f1_s
 
 from pandas.api.types import CategoricalDtype
 
-meta = pd.read_csv('../metadata/variables.csv', index_col=0)
 ###########
 
 def cols_per_type(X_train,datatype='categorical', 
@@ -19,17 +18,20 @@ def cols_per_type(X_train,datatype='categorical',
     return [col for col in Xcols if col in cols]
 
 
-def load_files(meta='../metadata/metadata.json', background='../data/FFChallenge_v5/background.csv',
+
+def load_files(meta='../metadata/metadata.json', 
+               background='../data/FFChallenge_v5/background.csv',
                train='../data/FFChallenge_v5/train.csv',
                leaderboard='../data/leaderboard.csv',
                holdout='../data/test.csv',
                nanvalues='keep'):
-    
-    if nanvalues == 'remove':
-        nanvalues = [-9,-8,-7,-6,-5,-3,-2,-1]
-    elif nanvalues == 'keep':
-        nanvalues = None
+                     
+    defaultnan = ['#N/A', '#N/A N/A', '#NA', '-1.#IND', '-1.#QNAN', '-NaN', '-nan', '1.#IND', '1.#QNAN', '<NA>', 'N/A', 'NA', 'NULL', 'NaN', 'None', 'n/a', 'nan', 'null']
 
+    if nanvalues == 'remove':
+        negative_nanvalues = [-9,-8,-7,-6,-5,-3,-2,-1]
+        nanvalues = negative_nanvalues + defaultnan
+    
     with open(meta, 'r') as f:
         data_types_str = json.load(f)
 
@@ -37,39 +39,37 @@ def load_files(meta='../metadata/metadata.json', background='../data/FFChallenge
 
     # print('Loading data...')
     # print(dtypedict.keys())
-
+    
+    # main training data
     background = pd.read_csv(background,low_memory=False, \
                              na_values=nanvalues,\
-                                dtype=dtypedict,\
-                                usecols=dtypedict.keys()).set_index('challengeID')
+                             dtype=dtypedict,\
+                             usecols=dtypedict.keys()).set_index('challengeID')
     
     train = pd.read_csv(train, sep=',', header=0, index_col=0).dropna(how='all')
     
     data  = background.loc[train.index].join(train)
 
-    leaderboard = pd.read_csv(leaderboard, low_memory=False)
-    X_leaderboard = background[background.index.isin(leaderboard.dropna().index)]
-    Y_leaderboard = leaderboard.dropna()
-    leaderboard = X_leaderboard.join(Y_leaderboard).set_index('challengeID')
+    data_train, data_test = train_test_split(data, test_size=0.2, random_state=123)
 
-    holdout = pd.read_csv(holdout, low_memory=False)
-    X_holdout = background[background.index.isin(holdout.dropna().index)]
-    Y_holdout = holdout.dropna().copy()
-    # Y_holdout['eviction'] = Y_holdout['eviction'].astype('int')
-    # Y_holdout['layoff'] = Y_holdout['layoff'].astype('int')
-    # Y_holdout['jobTraining'] = Y_holdout['jobTraining'].astype('int')
-    holdout = X_holdout.join(Y_holdout).set_index('challengeID')
+    # leaderboard data
+    leaderboard = pd.read_csv(leaderboard, low_memory=False).set_index('challengeID')
+    Y_leaderboard = leaderboard.dropna(how='all').copy()
+    X_leaderboard = background[background.index.isin(Y_leaderboard.index)]
+    leaderboard = X_leaderboard.join(Y_leaderboard)
     
-    data_train, data_test = train_test_split(data, test_size=0.2, random_state=42)
-
+    # holdout
+    holdout = pd.read_csv(holdout, low_memory=False).set_index('challengeID')
+    Y_holdout = holdout.dropna(how='all').copy()
+    X_holdout = background[background.index.isin(Y_holdout.index)]
+    holdout = X_holdout.join(Y_holdout)
+    
     return data_train, data_test, leaderboard, holdout
 
-    # return data_train, data_cv, data_test
-    
 def has_missing(df):
     return df.isnull().values.any()
 
-def prepare_data(df, target,mi_threshold=0.01):
+def prepare_data(df, target):
     
     Y = df[target].dropna()
     X = df.iloc[:, :-6].loc[Y.index]
@@ -152,8 +152,17 @@ def score_model(model, target, test, leaderboard, holdout, classifier=False):
             # # Print holdout scores
             print(f'Holdout MSE: {mse:.4f}')
             print(f'Holdout R2: {rsquared:.4f}')
-        
-def shap_show(model, alldata, target, n=5):
+
+
+def splitfeatname(string):
+    try:
+        id = string.split('__')[1]
+    except:
+        id = string.split('_')[0]
+    return id
+
+
+def shap_show(model, alldata, target, n=5,meta=pd.read_csv('../metadata/variables.csv', index_col=0)):
     X, y = prepare_data(alldata, target)
     model  = model.best_estimator_.fit(X, y)
     Xtransform = model.named_steps['preprocessor'].transform(X)
@@ -162,21 +171,12 @@ def shap_show(model, alldata, target, n=5):
     names = transformer.get_feature_names_out()
     featnames = [splitfeatname(name) for name in names]
     shap_values = exp.shap_values(Xtransform)
-    # get top n features
-    top_n_idx = np.argsort(np.abs(shap_values).mean(0))[-n:]
-    top_n_feat = [featnames[i] for i in top_n_idx]
-    # # get questions
-    top_n_vars = [meta[meta.index.isin([feat])].varlab.values for feat in top_n_feat]
-    # # reverse order
-    # top_n_vars = top_n_vars[::-1]
+    # # get top n features
+    # top_n_idx = np.argsort(np.abs(shap_values).mean(0))[-n:]
+    # top_n_feat = [featnames[i] for i in top_n_idx]
+    # # # get questions
+    # top_n_vars = [meta[meta.index.isin([feat])].varlab.values for feat in top_n_feat]
+    # # # reverse order
+    # # top_n_vars = top_n_vars[::-1]
     shap.summary_plot(shap_values, Xtransform, max_display=n, feature_names=featnames)
-    return dict(zip(map(tuple, top_n_vars), top_n_feat))
-
-def splitfeatname(string):
-    try:
-        id = string.split('__')[1]
-    
-    except:
-        id = string.split('_')[0]
-    return id
-
+    # return dict(zip(map(tuple, top_n_vars), top_n_feat))
