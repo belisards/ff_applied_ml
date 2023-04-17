@@ -3,6 +3,7 @@ logs/
 code/__pycache__
 metadata/
 __pycache__/
+code/catboost_info/*
 code/catboost_info/
 *.lock
 
