@@ -1,9 +1,9 @@
 import json
 import pandas as pd
 from sklearn.model_selection import train_test_split
-import shap
+from matplotlib import pyplot
 import numpy as np
-from sklearn.metrics import mean_squared_error, r2_score, brier_score_loss, f1_score
+from sklearn.metrics import mean_squared_error, r2_score, brier_score_loss, f1_score, accuracy_score, recall_score, classification_report,roc_auc_score, roc_curve
 
 from pandas.api.types import CategoricalDtype
 
@@ -79,10 +79,11 @@ def prepare_data(df, target):
 
     return X, Y
 
-def score_model(model, target, test, leaderboard, holdout, classifier=False):
+def score_model(model, target, test, leaderboard, holdout,classifier=False):
     X_test, y_test = prepare_data(test, target)
 
     if classifier:
+        print('Scores without threshold adjusment')
         # Compute test scores
         y_pred = model.predict(X_test)
         brier = brier_score_loss(y_test, y_pred)
@@ -97,10 +98,18 @@ def score_model(model, target, test, leaderboard, holdout, classifier=False):
         y_pred = model.predict(X_leaderboard)
         brier = brier_score_loss(y_leaderboard, y_pred)
         f1 = f1_score(y_leaderboard, y_pred.round())
+        accuracy = accuracy_score(y_leaderboard, y_pred.round())
+        recall = recall_score(y_leaderboard, y_pred.round())
+
+        # r2 = r2_score(y_leaderboard, y_pred)
+
 
         # # Print leaderboard scores
         print(f'Leaderboard Brier: {brier:.4f}')
-        print(f'Leaderboard F1: {f1:.4f}')
+        print(f'Number of positive predictions: {y_pred.sum()}')
+        print(f'>> Leaderboard F1: {f1:.4f}')
+        print(f'Leaderboard Accuracy: {accuracy:.4f}')
+        print(f'Leaderboard Recall: {recall:.4f}')
 
         # # # Compute holdout scores
         if holdout is not None:
@@ -108,7 +117,11 @@ def score_model(model, target, test, leaderboard, holdout, classifier=False):
             y_pred = model.predict(X_holdout)
             y_holdout = y_holdout.astype(int)
             brier = brier_score_loss(y_holdout, y_pred)
+            f1 = f1_score(y_holdout, y_pred.round())
+            # r2 = r2_score(y_holdout, y_pred)
             print(f'Holdout Brier: {brier:.4f}')
+            print(f'Holdout F1: {f1:.4f}')
+            # print(f'Holdout R2: {r2:.4f}')
             
         
     else:
@@ -139,7 +152,7 @@ def score_model(model, target, test, leaderboard, holdout, classifier=False):
         rsquared = r2_score(y_leaderboard, model.predict(X_leaderboard))
 
         # Print leaderboard scores
-        print(f'Leaderboard MSE: {mse:.4f}')
+        print(f'>> Leaderboard MSE: {mse:.4f}')
         print(f'Leaderboard R2: {rsquared:.4f}')
 
         # # # Compute holdout scores
@@ -153,7 +166,6 @@ def score_model(model, target, test, leaderboard, holdout, classifier=False):
             print(f'Holdout MSE: {mse:.4f}')
             print(f'Holdout R2: {rsquared:.4f}')
 
-
 def splitfeatname(string):
     try:
         id = string.split('__')[1]
@@ -162,21 +174,74 @@ def splitfeatname(string):
     return id
 
 
-def shap_show(model, alldata, target, n=5,meta=pd.read_csv('../metadata/variables.csv', index_col=0)):
-    X, y = prepare_data(alldata, target)
-    model  = model.best_estimator_.fit(X, y)
-    Xtransform = model.named_steps['preprocessor'].transform(X)
-    exp = shap.TreeExplainer(model.named_steps['regressor'])
-    transformer = model.named_steps['preprocessor']
-    names = transformer.get_feature_names_out()
-    featnames = [splitfeatname(name) for name in names]
-    shap_values = exp.shap_values(Xtransform)
-    # # get top n features
-    # top_n_idx = np.argsort(np.abs(shap_values).mean(0))[-n:]
-    # top_n_feat = [featnames[i] for i in top_n_idx]
-    # # # get questions
-    # top_n_vars = [meta[meta.index.isin([feat])].varlab.values for feat in top_n_feat]
-    # # # reverse order
-    # # top_n_vars = top_n_vars[::-1]
-    shap.summary_plot(shap_values, Xtransform, max_display=n, feature_names=featnames)
-    # return dict(zip(map(tuple, top_n_vars), top_n_feat))
+
+def score_classifier(model,target,test,leaderboard,holdout=None):
+    # load data
+    X_test, y_test = prepare_data(test, target)
+    X_leaderboard, y_leaderboard = prepare_data(leaderboard, target)
+    print('Scores with threshold adjusment')
+    
+    ## get threshold for optimal FPR
+    yhat = model.predict_proba(X_test)
+    yhat = yhat[:, 1]
+    # calculate roc curves
+    fpr, tpr, thresholds = roc_curve(y_test, yhat)
+    # calculate AUC
+    auc = roc_auc_score(y_test, yhat)
+    # plot no skill
+    pyplot.plot([0, 1], [0, 1], linestyle='--')
+    # plot the roc curve for the model
+    pyplot.plot(fpr, tpr, marker='.')
+    # print('AUC: %.3f' % auc)
+    # plot optimal threshold as point
+    # find the optimal threshold using youden's j statistic
+    ix = np.argmax(tpr - fpr)
+    pyplot.scatter(fpr[ix], tpr[ix], marker='o', color='black')
+    pyplot.show()
+    # print value of optimal threshold
+    print('Threshold=%.3f, FPR=%.3f, TPR=%.3f' % (thresholds[ix], fpr[ix], tpr[ix]))
+    
+    # score test
+    yhat = model.predict_proba(X_test)
+    yhat = yhat[:, 1]
+    yhat = yhat > thresholds[ix]
+    # print(classification_report(y_test, yhat))
+    brier = brier_score_loss(y_test, yhat)
+    print('Test brier: %.3f' % brier)
+    f1 = f1_score(y_test, yhat)
+    print('Test F1: %.3f' % f1)
+
+    # score leaderboard
+    yhat = model.predict_proba(X_leaderboard)
+    yhat = yhat[:, 1]
+    yhat = yhat > thresholds[ix]
+    brier = brier_score_loss(y_leaderboard, yhat)
+    print('Leaderboard Brier: %.3f' % brier)
+    print(classification_report(y_leaderboard, yhat))
+    f1 = f1_score(y_leaderboard, yhat)
+    print('Leaderboard F1: %.3f' % f1)
+
+    if holdout is not None:
+        X_holdout, y_holdout = prepare_data(holdout, target)
+        y_holdout = y_holdout.astype(int)
+        yhat = model.predict_proba(X_holdout)
+        yhat = yhat[:, 1]
+        yhat = yhat > thresholds[ix]
+        brier = brier_score_loss(y_holdout, yhat)
+        print('Holdout Brier: %.3f' % brier)
+        f1 = f1_score(y_holdout, yhat)
+        print('Holdout F1: %.3f' % f1)
+
+    
+
+# def get_weights(df,target):
+#     weights = df[target].value_counts(normalize=True)
+#     w1 = weights[0].round(2)
+#     w2 = weights[1].round(2)
+#     return [w2, w1]
+
+
+def feat_2id(feats,meta=pd.read_csv('../metadata/variables.csv',index_col=0)):
+    top_n_vars = [meta[meta.index.isin([feat])].varlab.values for feat in feats]
+    df = pd.DataFrame(top_n_vars, index=feats, columns=['varlab'])
+    return df
