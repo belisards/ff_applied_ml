@@ -1,0 +1,1205 @@
+new_name,varlab,type,one_topic,dtype
+f1a2,Were you present at the birth?,Binary,parenting,float64
+f1a3,Have you held baby(ies)?,Binary,parenting,float64
+f1a4,Will the baby(ies) have your last name?,Binary,parenting,float64
+f1a5,Will your name be on the birth certificate?,Binary,parenting,float64
+f1a6,Do you have other biological children?,Binary,health_and_health_behavior,float64
+f1b1a,How many years did you know each other before (baby's mother) got pregnant?,Continuous,romantic_relationships,float64
+f1b2,Is respondent married to baby's mother?,Binary,romantic_relationships,float64
+f1b26,"Found out she was preg., your rel. with bio mom got better, worse, same?",Ordered Categorical,romantic_relationships,float64
+f1b27,"Found out bio mom preg., did you think about her having an abortion?",Binary,attitudes_and_expectations,float64
+f1b28,Did you suggest that she have an abortion?,Binary,attitudes_and_expectations,float64
+cf1cohm,Constructed - Is father cohabiting with baby's mother - not including marrieds?,Binary,romantic_relationships,float64
+f1c1a,"Being father is one of the most fulfilling experiences for a man, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1c1b,"I want people to know I have a new child, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1c1c,"Not being a part of child's life would be one of the worst things, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1c2a,How imp is it to provide regular financial support to children?,Ordered Categorical,attitudes_and_expectations,float64
+f1c2b,How imp is it to teach child about life?,Ordered Categorical,attitudes_and_expectations,float64
+f1c2c,How imp is it to provide direct care to child?,Ordered Categorical,attitudes_and_expectations,float64
+f1c2d,How imp is it to show love and affection to the child?,Ordered Categorical,attitudes_and_expectations,float64
+f1c2e,How imp is it to provide protection for child?,Ordered Categorical,attitudes_and_expectations,float64
+f1c2f,How imp is it to serve as authority figure and discipline the child?,Ordered Categorical,attitudes_and_expectations,float64
+f1c3,Which of the above (Q. f1c2a-f1c2f) is the most important?,Unordered Categorical,attitudes_and_expectations,category
+f1c3a,Which of the above (Q. f1c2a-f1c2f) is the least important?,Unordered Categorical,attitudes_and_expectations,category
+f1c4a,If bio dad provides financial supp - right to see the child regularly?,Binary,attitudes_and_expectations,float64
+f1c4b,If bio dad provides financial supp - right to make decisions about child?,Binary,attitudes_and_expectations,float64
+f1c5a,If bio dad can afford financial supp but doesn't - right to see child?,Binary,attitudes_and_expectations,float64
+f1c5b,If bio dad can afford financial supp but doesn't - right to make decisions?,Binary,attitudes_and_expectations,float64
+f1c6a,If bio dad cannot afford financial supp - right to see the child regularly?,Binary,attitudes_and_expectations,float64
+f1c6b,If bio dad cannot afford financial supp - right to make decisions about child?,Binary,attitudes_and_expectations,float64
+f1c7,If bio mom has new partner - required to provide financial supp. to child?,Binary,attitudes_and_expectations,float64
+f1c8,If bio dad has baby w partner - should provide fin. supp. to other children?,Binary,attitudes_and_expectations,float64
+f1d1a,The main advantage of marriage is financial security?,Ordered Categorical,attitudes_and_expectations,float64
+f1d1b,There are more advantages to being single than to being married?,Ordered Categorical,attitudes_and_expectations,float64
+f1d1c,Single mother can bring up a child as well as married couple?,Ordered Categorical,attitudes_and_expectations,float64
+f1d1d,It is better for a couple to get married than just live together?,Ordered Categorical,attitudes_and_expectations,float64
+f1d1e,It is better for children if their parents are married?,Ordered Categorical,attitudes_and_expectations,float64
+f1d1f,Living together is just the same as being married?,Ordered Categorical,attitudes_and_expectations,float64
+f1d2a,"How imp for successful marriage, have same friends?",Ordered Categorical,attitudes_and_expectations,float64
+f1d2b,"How imp for successful marriage, husband has steady job?",Ordered Categorical,attitudes_and_expectations,float64
+f1d2c,"How imp for successful marriage, wife has steady job?",Ordered Categorical,attitudes_and_expectations,float64
+f1d2d,"How imp for successful marriage, both same race/ethnic?",Ordered Categorical,attitudes_and_expectations,float64
+f1d2e,"How imp for successful marriage, good sex?",Ordered Categorical,attitudes_and_expectations,float64
+f1d2f,"How imp for successful marriage, share same religion?",Ordered Categorical,attitudes_and_expectations,float64
+f1d2g,"How imp for successful marriage, both emotionally mature?",Ordered Categorical,attitudes_and_expectations,float64
+f1d3a,"The imp decisions in the family should be done by the man, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1d3b,Should parents should stay together for the children even if don't get along?,Ordered Categorical,attitudes_and_expectations,float64
+f1d3c,Is it better if husband earns the main living and woman cares for family?,Ordered Categorical,attitudes_and_expectations,float64
+f1d3d,"In dating, a woman is largely out to take advantage of a man?",Ordered Categorical,attitudes_and_expectations,float64
+f1d3e,"Women cannot be trusted to be faithful, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1d3f,"More important for man to spend time w/ his family than to work a lot, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1d3g,"Fathers play more important role in raising boys than in raising girls, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+f1e1b1,People who currently live in your HH - 1st relationship?,Unordered Categorical,housing_and_neighborhood,category
+f1e1c1,People who currently live in your HH - 1st gender?,Binary,housing_and_neighborhood,float64
+f1e1d1,People who currently live in your HH - 1st age?,Continuous,housing_and_neighborhood,float64
+f1e2,Were you living with both of your biological parents at age 15?,Binary,family_and_social_ties,float64
+f1e3,How involved in raising you was your biological father?,Ordered Categorical,family_and_social_ties,float64
+f1e4,Was there another man who was like a father to you when growing up?,Binary,family_and_social_ties,float64
+f1e5,"When you think about the kind of father you want to be, whom do you think of?",Unordered Categorical,attitudes_and_expectations,category
+f1e6a,During bio mom's preg did you receive any financial supp.?,Binary,finances,float64
+f1e6c,During bio mom's preg did you receive a place to live?,Binary,family_and_social_ties,float64
+f1e7a,"During next year, would someone in your fam. loan you $200?",Binary,family_and_social_ties,float64
+f1e7b,"During next year, would someone in your fam. provide you a place to live?",Binary,family_and_social_ties,float64
+cf1adult,Constructed - # of adults 18 or older in the HH,Continuous,housing_and_neighborhood,float64
+cf1kids,Constructed - # of children under 18 in HH,Continuous,housing_and_neighborhood,float64
+cf1gdad,Constructed - Baby's grandfather in the HH,Binary,housing_and_neighborhood,float64
+cf1gmom,Constructed - Baby's grandmother in the HH,Binary,housing_and_neighborhood,float64
+f1f2,Is the home/apt of your current residency owned or rented?,Unordered Categorical,housing_and_neighborhood,category
+f1f3,Do you live in a public housing projects?,Binary,finances,float64
+f1f4,Is the fed/state/local government helping you to pay your rent?,Binary,finances,float64
+f1f5,"How safe are streets by your home at night? (v.safe,safe,unsafe,v.unsafe)",Ordered Categorical,housing_and_neighborhood,float64
+f1f6,About how often do you attend religious services?,Ordered Categorical,family_and_social_ties,float64
+f1f7,What is your religious preference?,Unordered Categorical,family_and_social_ties,category
+f1f13,Can a blood test prove whether a man is really the child's father?,Binary,legal_system,float64
+f1f14,Did anyone at the hospital talk to you about establishing paternity?,Binary,legal_system,float64
+f1f15,"If bio dad doesn't want to marry likely, he'll be required to pay child supp.?",Ordered Categorical,finances,float64
+f1g1,How is your health?,Ordered Categorical,health_and_health_behavior,float64
+f1g2,"In the past 3 months, how often did you drink alcohol?",Ordered Categorical,health_and_health_behavior,float64
+f1g2a,"In the past 3 months, did you ever drink more than 3 drinks a day ?",Binary,health_and_health_behavior,float64
+f1g3,"In the past 3 months, how often did you use drugs?",Ordered Categorical,health_and_health_behavior,float64
+f1g4,"In the past 3 months, how many cigarettes did you smoke a day?",Ordered Categorical,health_and_health_behavior,float64
+f1g5,"In the past year, has drinking/drugs interfered with work/relationships?",Binary,health_and_health_behavior,float64
+f1g6,Have you ever sought help for drugs/alcohol problems?,Binary,health_and_health_behavior,float64
+f1g7,Are you very satisfied with yourself?,Binary,health_and_health_behavior,float64
+f1g8,Do you feel often that you are being pushed around in life?,Binary,health_and_health_behavior,float64
+f1g9a,"In the past week, how often have things bothered you?",Ordered Categorical,health_and_health_behavior,float64
+f1g9b,"In the past week, how often was your appetite poor?",Ordered Categorical,health_and_health_behavior,float64
+f1g9c,"In the past week, how often could you not shake off the blues?",Ordered Categorical,health_and_health_behavior,float64
+f1g9d,"In the past week, how often did you have trouble concentrating?",Ordered Categorical,health_and_health_behavior,float64
+f1g9e,"In the past week, how often did you feel depressed?",Ordered Categorical,health_and_health_behavior,float64
+f1g9f,"In the past week, how often did you feel everything was an effort?",Ordered Categorical,health_and_health_behavior,float64
+f1g9g,"In the past week, how often did you feel fearful?",Ordered Categorical,health_and_health_behavior,float64
+f1g9h,"In the past week, how often did you sleep restlessly?",Ordered Categorical,health_and_health_behavior,float64
+f1g9i,"In the past week, how often did you talk less than usual?",Ordered Categorical,health_and_health_behavior,float64
+f1g9j,"In the past week, how often did you feel lonely?",Ordered Categorical,health_and_health_behavior,float64
+f1g9k,"In the past week, how often did you feel sad?",Ordered Categorical,health_and_health_behavior,float64
+f1g9l,"In the past week, how often couldn't you get going?",Ordered Categorical,health_and_health_behavior,float64
+f1h2,Were you born in US?,Binary,demographics,float64
+f1h3,What is your race?,Unordered Categorical,demographics,category
+f1h3a,Are you of Hispanic/Latino origin?,Binary,demographics,float64
+f1h4a,I feel attachment toward my racial/ethnic group? Agr/Disag,Ordered Categorical,attitudes_and_expectations,float64
+f1h4b,I participate in cultural practices of my own group? Agr/Disag,Ordered Categorical,attitudes_and_expectations,float64
+cf1edu,"Constructed - Father baseline education (father report, then mother report)",Ordered Categorical,education_and_school,float64
+cf1ethrace,Father race (first 3 waves combined father and mother report),Unordered Categorical,demographics,category
+f1i1,Highest grade of regular school that you completed?,Unordered Categorical,education_and_school,category
+f1i2,Have you ever received skills training from a gov. sponsored program?,Binary,education_and_school,float64
+f1i3,"Ever attended a business college, vocational tech, or been an apprentice?",Binary,education_and_school,float64
+f1i4,Have you ever served in the military?,Binary,employment,float64
+f1j1,"Last week, did you do any regular work for pay?",Binary,employment,float64
+f1j6,How many hours/week do/did you work at your current/most recent job?,Continuous,employment,float64
+f1j7a,Do/did you work for yourself or for someone else?,Binary,employment,float64
+f1j7bc,What sort of work do/did you do in your current/most recent job? - Broad,Unordered Categorical,employment,category
+f1j8,About how much did you earn?,Continuous,finances,float64
+f1j8a,"Was that per hour, day, week, month, year?",Ordered Categorical,finances,float64
+f1j9,Did/does your employer provide health insurance?,Binary,health_and_health_behavior,float64
+f1j11,"In last year, how many weeks did you spend at your regular job?",Continuous,employment,float64
+f1j12,"When at these jobs, how many hours per week did you usually work?",Continuous,employment,float64
+f1j13a,Off the books or under the table work?,Binary,employment,float64
+f1j13b,Work in own business?,Unordered Categorical,employment,category
+f1k1a,"In last year, did you have income from public assistance?",Binary,finances,float64
+f1k1b,"In last year, did you have income from Unemployment/SS/Disability?",Binary,finances,float64
+f1k1c,"In last year, did you have income from family and friends?",Binary,finances,float64
+f1k1d,"In last year, did you have income from no one else?",Binary,finances,float64
+f1k4,What are your monthly expenses for rent or mortgage?,Continuous,finances,float64
+f1k5,"At the end of the month, how much money do you usually have?",Ordered Categorical,finances,float64
+f1k6,Do you own a car?,Binary,finances,float64
+cf1hhinc,Constructed - Household income (with imputed values),Continuous,finances,float64
+cf1hhimp,Constructed - Flag variable for household income imputation,Unordered Categorical,finances,category
+cf1inpov,Constructed - Poverty ratio - mother's household income/poverty threshold,Continuous,finances,float64
+cf1povca,Constructed - Poverty categories,Ordered Categorical,finances,float64
+cf1finjail,"Constructed - father report, father in jail at his baseline interview",Binary,legal_system,float64
+cf1span,Constructed - Was the father interviewedin Spanish?,Binary,paradata_and_weights,float64
+m1a3,Have you picked up a (name/names) for the (baby/babies) yet?,Binary,parenting,float64
+m1a5,Will the baby (babies) have the father's last name?,Binary,parenting,float64
+m1a6,Will the father's name be on the birth certificate?,Binary,parenting,float64
+m1a7,Has bio dad visited you in the hospital?,Binary,romantic_relationships,float64
+m1a8,When are you going home?,Ordered Categorical,health_and_health_behavior,float64
+m1a9,Do you feel ready to go home or would you rather stay longer?,Binary,health_and_health_behavior,float64
+m1a11a,Will the baby live with mother?,Binary,housing_and_neighborhood,float64
+m1a11b,Will the baby live with father?,Binary,housing_and_neighborhood,float64
+m1a11c,Will baby live with other relatives?,Binary,housing_and_neighborhood,float64
+m1a11d,Will baby live with non-relatives?,Binary,housing_and_neighborhood,float64
+m1a12,Do you have other biological children?,Binary,health_and_health_behavior,float64
+m1a13,Did you visit a doctor/other health care professional to check on the pregnancy?,Binary,health_and_health_behavior,float64
+m1a15,How are you paying for the baby's birth?,Unordered Categorical,health_and_health_behavior,category
+m1a16,Who does the baby looks like?,Unordered Categorical,parenting,category
+cm1age,Constructed - Mother's age (years),Continuous,demographics,float64
+cm1bsex,Constructed - Focal baby's gender,Unordered Categorical,demographics,category
+cm1lbw,Constructed - Low Birth Weight?,Binary,health_and_health_behavior,float64
+cm1numb,Constructed - Number of babies born at current birth,Unordered Categorical,health_and_health_behavior,category
+m1b0,Int chk: Is father unknown?,Binary,romantic_relationships,float64
+m1b1a,How many years did you know Baby's Father before you got pregnant?,Continuous,romantic_relationships,float64
+m1b1b,How many months did you know Baby's Father before you got pregnant?,Continuous,romantic_relationships,float64
+m1b3,Which statement best describes your current relationship with Baby's Father?,Ordered Categorical,romantic_relationships,float64
+m1b14,What are the chances that you will marry bio dad in the future?,Ordered Categorical,romantic_relationships,float64
+m1b15a,"How life diff if married bio dad, financial security?",Ordered Categorical,romantic_relationships,float64
+m1b15b,"How life diff if married bio dad, overall happiness?",Ordered Categorical,romantic_relationships,float64
+m1b15c,"How life diff if married bio dad, freedom?",Ordered Categorical,romantic_relationships,float64
+m1b15d,"How life diff if married bio dad, control over money?",Ordered Categorical,romantic_relationships,float64
+m1b15e,"How life diff if married bio dad, sex life?",Ordered Categorical,romantic_relationships,float64
+m1b15f,"How life diff if married bio dad, relations w/parents?",Ordered Categorical,romantic_relationships,float64
+m1b16,"During preg, did bio dad give money to buy things for baby/babies?",Binary,romantic_relationships,float64
+m1b17,"Did bio dad help you in any other way (transportation, etc)?",Binary,romantic_relationships,float64
+m1b18,Do you want bio dad involved in raising your child (children)?,Binary,romantic_relationships,float64
+m1b19,Does bio dad want to be involved in raising your child?,Unordered Categorical,romantic_relationships,category
+m1b20,Int chk: Are mother and father living together?,Binary,romantic_relationships,float64
+m1b26,"After found out you were preg., how did your relationship with bio dad change?",Unordered Categorical,romantic_relationships,category
+m1b27,"When you found out you were pregnant, did you think about having an abortion?",Binary,attitudes_and_expectations,float64
+m1b28,Did bio dad suggest that you have an abortion?,Binary,attitudes_and_expectations,float64
+cm1relf,Constructed-Household Relationship-mother,Ordered Categorical,romantic_relationships,float64
+m1c1a,How imp is it for bio dad to provide regular financial support to children?,Ordered Categorical,attitudes_and_expectations,float64
+m1c1b,How imp is it for bio dad to teach child about life?,Ordered Categorical,attitudes_and_expectations,float64
+m1c1c,How imp is it for bio dad to provide direct care to child?,Ordered Categorical,attitudes_and_expectations,float64
+m1c1d,How imp is it for bio dad to show love and affection to the child?,Ordered Categorical,attitudes_and_expectations,float64
+m1c1e,How imp is it for bio dad to provide protection for child?,Ordered Categorical,attitudes_and_expectations,float64
+m1c1f,How imp is it for bio dad to serve as authority figure and discipline the child?,Ordered Categorical,attitudes_and_expectations,float64
+m1c2,Which of the statements above (Q. c1a-c1f) is most important to you?,Unordered Categorical,attitudes_and_expectations,category
+m1c2a,Which of the statements above (Q. c1a-c1f) is least important to you?,Unordered Categorical,attitudes_and_expectations,category
+m1c3a,If bio dad provides financial supp. to bio mom - right to see the child?,Binary,attitudes_and_expectations,float64
+m1c3b,If bio dad provides fin. supp. to bio mom - can make decisions about child?,Binary,attitudes_and_expectations,float64
+m1c4a,If bio dad can afford financial supp. but doesnÃ•t - right to see child?,Binary,attitudes_and_expectations,float64
+m1c4b,If bio dad can afford fin. supp. but doesnÃ•t - can make decisions about child?,Binary,attitudes_and_expectations,float64
+m1c5a,If bio dad can't afford to provide financial supp. -  right to see child?,Binary,attitudes_and_expectations,float64
+m1c5b,If bio dad can't afford to provide fin. supp. - can make decisions about child?,Binary,attitudes_and_expectations,float64
+m1c6,"If bio mom has a new partner, should bio dad be required to provide fin. supp.?",Binary,attitudes_and_expectations,float64
+m1c7,"If bio dad has baby w/another, should he be required to support other children?",Binary,attitudes_and_expectations,float64
+m1d1a,The main advantage of marriage is financial security?,Ordered Categorical,attitudes_and_expectations,float64
+m1d1b,There are more advantages to being single than to being married?,Ordered Categorical,attitudes_and_expectations,float64
+m1d1c,A single mother can bring up a child as well as a married couple?,Ordered Categorical,attitudes_and_expectations,float64
+m1d1d,It is better for a couple to get married than just live together?,Ordered Categorical,attitudes_and_expectations,float64
+m1d1e,It is better for children if their parents are married?,Ordered Categorical,attitudes_and_expectations,float64
+m1d1f,Living together is just the same as being married?,Ordered Categorical,attitudes_and_expectations,float64
+m1d2a,"How imp for successful marriage, have same friends?",Ordered Categorical,attitudes_and_expectations,float64
+m1d2b,"How imp for successful marriage, husband has steady job?",Ordered Categorical,attitudes_and_expectations,float64
+m1d2c,"How imp for successful marriage, wife has steady job?",Ordered Categorical,attitudes_and_expectations,float64
+m1d2d,"How imp for successful marriage, both same race/ethnicity?",Ordered Categorical,attitudes_and_expectations,float64
+m1d2e,"How imp for successful marriage, have good sex?",Ordered Categorical,attitudes_and_expectations,float64
+m1d2f,"How imp for successful marriage, share same religion?",Ordered Categorical,attitudes_and_expectations,float64
+m1d2g,"How imp for successful marriage, both emotionally mature?",Ordered Categorical,attitudes_and_expectations,float64
+m1d3a,"The important decisions in the family should be done by the man, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+m1d3b,Parents should stay together for the children even if they don't get along?,Ordered Categorical,attitudes_and_expectations,float64
+m1d3c,"It is better if husb. earns the main living and woman cares for family, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+m1d3d,"In dating, a man is largely out to take advantage of a woman, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+m1d3e,"Men cannot be trusted to be faithful, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+m1d3f,"More important for man to spend time with his family than to work a lot, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+m1d3g,"Fathers play more imp role in raising boys than girls, Ag/Dis?",Ordered Categorical,attitudes_and_expectations,float64
+m1e1b1,People who currently live in your HH - 1st relationship?,Unordered Categorical,housing_and_neighborhood,category
+m1e1b2,People who currently live in your HH - 2nd relationship?,Unordered Categorical,housing_and_neighborhood,category
+m1e1c1,People who currently live in your HH - 1st gender?,Binary,housing_and_neighborhood,float64
+m1e1c2,People who currently live in your HH - 2nd gender?,Binary,housing_and_neighborhood,float64
+m1e1d1,People who currently live in your HH - 1st age?,Continuous,housing_and_neighborhood,float64
+m1e1d2,People who currently live in your HH - 2nd age?,Continuous,housing_and_neighborhood,float64
+m1e1e1,People who currently live in your HH - 1st employment?,Binary,housing_and_neighborhood,float64
+m1e2,Were you living with both of your bio parents at age 15?,Binary,family_and_social_ties,float64
+m1e3a,"During your preg, did you receive financial supp. from anyone besides bio dad?",Binary,finances,float64
+m1e3c,"During preg, did you receive a place to live?",Binary,family_and_social_ties,float64
+m1e3e,"During preg, did you receive child care?",Binary,childcare,float64
+m1e4a,"Next yr, would someone in family loan you $200?",Binary,family_and_social_ties,float64
+m1e4b,"Next yr, would someone in family give place to live?",Binary,family_and_social_ties,float64
+m1e4c,"Next yr, would someone help you with babysitting/child care?",Binary,childcare,float64
+cm1adult,Constructed - # of adults 18 or older in the HH,Continuous,housing_and_neighborhood,float64
+cm1kids,Constructed - # of children under 18 in HH,Continuous,housing_and_neighborhood,float64
+cm1gdad,Constructed - Baby's grandfather in the HH,Binary,housing_and_neighborhood,float64
+cm1gmom,Constructed - Baby's grandmother in the HH,Binary,housing_and_neighborhood,float64
+m1f1a,How long have you lived in neighborhood - Years?,Continuous,housing_and_neighborhood,float64
+m1f1b,How long have you lived in neighborhood - months?,Continuous,housing_and_neighborhood,float64
+m1f2,Is the home/apartment were you currently reside owned/rented?,Unordered Categorical,housing_and_neighborhood,category
+m1f3,Do you live in a public housing project?,Binary,finances,float64
+m1f4,Is the fed/state/local government helping to pay for your rent?,Binary,finances,float64
+m1f5,How safe are the streets around your home at night?,Ordered Categorical,housing_and_neighborhood,float64
+m1f6,About how often do you attend religious services?,Ordered Categorical,family_and_social_ties,float64
+m1f7,What is your religious preference?,Unordered Categorical,family_and_social_ties,category
+m1f12,"Can judge make a father pay child support, even if he wanted an abortion?",Binary,finances,float64
+m1f13,Can blood test prove whether a man is really the father of the child?,Binary,legal_system,float64
+m1f14,Has anyone in the hospital given you information about est. paternity?,Binary,legal_system,float64
+m1f15,If bio dad doesn't want to marry mother - required to pay child supp.?,Ordered Categorical,finances,float64
+m1g1,How is your health?,Ordered Categorical,health_and_health_behavior,float64
+m1g2,"During the preg, how often did you drink alcohol?",Ordered Categorical,health_and_health_behavior,float64
+m1g4,"During the preg, how many cigarettes did you smoke?",Ordered Categorical,health_and_health_behavior,float64
+m1g5,"In last year, has alcohol/drugs interfered with your work/relationships?",Binary,health_and_health_behavior,float64
+m1g6,Have you ever sought help or been treated for drug/alc problems?,Binary,health_and_health_behavior,float64
+m1h2,Were you born in the U.S.?,Binary,demographics,float64
+m1h3,What is your race?,Unordered Categorical,demographics,category
+m1h3a,Are you of Hispanic or Latino origin or descent?,Binary,demographics,float64
+cm1edu,Constructed - Mother baseline education (own report),Ordered Categorical,education_and_school,float64
+cm1ethrace,Mother race (baseline own report),Unordered Categorical,demographics,category
+m1i2a,"When you last worked, how many hours per week did you work?",Continuous,employment,float64
+m1i2b,About how much did you earn?,Continuous,finances,float64
+m1i2c,Was that amount per hour/day/week/month/year/other?,Ordered Categorical,employment,float64
+m1i2d,Do you expect to work during next year?,Binary,employment,float64
+m1i2ii,In what year did you last work 2 weeks or more at a regular job?,Continuous,employment,float64
+m1i4,What is bio dad's race?,Unordered Categorical,demographics,category
+m1i4a,Is bio dad of Hispanic/Latino origin or descent?,Binary,demographics,float64
+m1i6,"What was bio dad doing most of last week (working, going to school,else)?",Unordered Categorical,employment,category
+m1i7,Does bio dad engage in any activities other than regular job to generate income?,Binary,employment,float64
+m1i8,Does bio dad have physical/health condition that limits work he can do?,Binary,health_and_health_behavior,float64
+m1i9,Does bio dad have a problem keeping a job/friends because of drugs/alc use?,Binary,employment,float64
+m1i10,Int chk: Is bio dad married or living with bio mom?,Binary,romantic_relationships,float64
+m1j1a,"In last year, did you have income from earnings?",Binary,finances,float64
+m1j1b,"In last year, did you have income from public assistance/welfare/food stamps?",Binary,finances,float64
+m1j1c,"In last year, did you have income from Unemployment/SS/Disability?",Binary,finances,float64
+m1j1d,"In last year, did you have income from family/friends?",Binary,finances,float64
+m1j1e,"In last year, did you have no income?",Binary,finances,float64
+m1j3,What was your total household income before taxes in the past 12 months,Ordered Categorical,finances,float64
+m1j4,"At the end of the month, how much money leftover do you usually have?",Ordered Categorical,finances,float64
+m1j5,Do you own a car?,Binary,finances,float64
+cm1hhinc,Constructed - Household income (with imputed values),Continuous,finances,float64
+cm1hhimp,Constructed - Flag variable for household income imputation,Unordered Categorical,finances,category
+cm1inpov,Constructed - Poverty ratio - mother's household income/poverty threshold,Continuous,finances,float64
+cm1povca,Constructed - Poverty categories,Ordered Categorical,finances,float64
+cm1finjail,"Constructed - mother report, father in jail at her baseline interview",Binary,legal_system,float64
+cm1span,Constructed - Was the mother interviewed in Spanish?,Binary,paradata_and_weights,float64
+cf2finjail,"Constructed - father report, father in jail at his 1 yr interview",Unordered Categorical,legal_system,category
+cf2fevjail,"Constructed - father reports, dad ever in jail by his 1 yr interview",Unordered Categorical,legal_system,category
+m2a3,How much of the time does the child live with you?,Unordered Categorical,housing_and_neighborhood,category
+m2a6,What was your relationship with father when child was born?,Unordered Categorical,romantic_relationships,category
+m2a6c,"When child was born, were you and father living together...",Ordered Categorical,romantic_relationships,float64
+m2a7,What is your relationship with father now?,Ordered Categorical,romantic_relationships,float64
+m2a8a,Int chk: Were mother and father ever married to each other?,Binary,romantic_relationships,float64
+m2a8b,Int Chk: Were mother and father living together at birth or at follow-up?,Binary,romantic_relationships,float64
+m2a8c,Int Chk: Are mother and father divorced or separated from each other?,Binary,romantic_relationships,float64
+m2a8d,Int Chk: Are mother and father currently romantically involved?,Binary,romantic_relationships,float64
+m2a10,Int Chk: Do mom & dad live together all/most of the time or 7 nights/week?,Binary,romantic_relationships,float64
+m2a12,"Including child, how many biological children do you have with father?",Ordered Categorical,health_and_health_behavior,float64
+cm2b_age,Constructed - Baby's age at time of mother's one-year interview (months),Ordered Categorical,demographics,float64
+cm2relf,Constructed - Mother's romantic relationship w/ childÃ•s father at one-year,Ordered Categorical,romantic_relationships,float64
+cm2marf,Constructed - Is mother married to child's father at one-year?,Unordered Categorical,romantic_relationships,category
+cm2cohf,Constructed - Is mother cohabiting with baby's father - not including marrieds?,Unordered Categorical,romantic_relationships,category
+m2b1,Int chk: Does baby live with mother at least some of the time?,Binary,housing_and_neighborhood,float64
+m2b2,How is the child's health?,Ordered Categorical,health_and_health_behavior,float64
+m2b3,Does child have any physical disabilities?,Binary,health_and_health_behavior,float64
+m2b5b,When was child last weighed at doctor's office? (Year),Continuous,health_and_health_behavior,float64
+m2b5c1,How much did child weigh on that day?-(Pounds),Continuous,health_and_health_behavior,float64
+m2b5c2,How much did child weigh on that day?-(Ounces),Continuous,health_and_health_behavior,float64
+m2b6,Times since birth has child been to health care professional for well visit?,Ordered Categorical,health_and_health_behavior,float64
+m2b7,Times since birth has child been to health care professional for illness?,Continuous,health_and_health_behavior,float64
+m2b7a,Times since birth has child been to health care professional for injury?,Continuous,health_and_health_behavior,float64
+m2b8,How many times since birth has child been to emergency room?,Continuous,health_and_health_behavior,float64
+m2b9,"Since leaving the hospital at birth, has child stayed overnight in a hospital?",Binary,health_and_health_behavior,float64
+m2b11,Has a health care professional ever told you child has asthma?,Unordered Categorical,health_and_health_behavior,category
+m2b12,Was child ever breastfed?,Binary,health_and_health_behavior,float64
+m2b14,Does child walk or crawl yet?,Binary,health_and_health_behavior,float64
+m2b15,Since birth how many times have you and child been separated for a week or more?,Continuous,housing_and_neighborhood,float64
+m2b17a,On a scale of 1-(least like) to 5-(most like) - Child tends to be shy,Ordered Categorical,cognitive_and_behavioral_development,float64
+m2b17b,On a scale of 1-(least like) to 5-(most like) - Child often fusses and cries,Ordered Categorical,cognitive_and_behavioral_development,float64
+m2b17c,On a scale of 1-(least like) to 5-(most like) - Child is very sociable,Ordered Categorical,cognitive_and_behavioral_development,float64
+m2b17d,On a scale of 1-(least like) to 5-(most like) - Child gets upset easily,Ordered Categorical,cognitive_and_behavioral_development,float64
+m2b17e,On a scale of 1-(least like) to 5-(most like) - Child reacts strongly when upset,Ordered Categorical,cognitive_and_behavioral_development,float64
+m2b17f,Scale of 1(least like) to 5(most like) - Child is very friendly with strangers,Ordered Categorical,cognitive_and_behavioral_development,float64
+m2b18a,# Days/week mom play games like peek-a-boo or gotcha w/child?,Ordered Categorical,parenting,float64
+m2b19,Have you spanked child in past month?,Binary,parenting,float64
+m2b20a,How much do you agree/disagree-Being a parent is harder than I thought,Ordered Categorical,parenting,float64
+m2b20b,How much do you agree/disagree-Feel trapped by parental responsibilities,Ordered Categorical,parenting,float64
+m2b20c,How much do you agree/disagree-Taking care of children more work than pleasure,Ordered Categorical,parenting,float64
+m2b20d,How much do you agree/disagree-Often feel tired and worn out from raising family,Ordered Categorical,parenting,float64
+m2b21,Is child currently being cared for by someone other than parents on reg basis?,Binary,childcare,float64
+m2c1,Int Chk: Are mother and father currently living together?,Binary,romantic_relationships,float64
+m2c4,In past month has father spanked child because he/she were misbehaving?,Unordered Categorical,parenting,category
+m2c5,"In past month, how often has father spent 1+ hours with child?",Ordered Categorical,parenting,float64
+m2c5a,How often do you think father should spend 1+ hours with child?,Ordered Categorical,parenting,float64
+m2c5b,Have you ever asked father to spend more time with child?,Binary,parenting,float64
+m2c6a,How often(1=Very 4=Never)does father-Watch child when mother needs to do things?,Ordered Categorical,parenting,float64
+m2c6b,How often(1=Very 4=Never)does father-Run errands for mother?,Ordered Categorical,parenting,float64
+m2c6c,How often(1=Very 4=Never)does father-Fix/paint/maintain or improve around home?,Ordered Categorical,parenting,float64
+m2c6d,"How often(1=Very 4=Never)does father-Take child to daycare, doctor, etc?",Ordered Categorical,parenting,float64
+m2c7,"Int Chk: When child was born, were mother and father married to each other?",Binary,romantic_relationships,float64
+m2c24,Do you have any children by someone other than the father?,Binary,health_and_health_behavior,float64
+m2c26,Does father have any other children by someone else?,Unordered Categorical,health_and_health_behavior,category
+m2c30,Int Chk: Are parents married to each other or romantically involved?,Binary,romantic_relationships,float64
+m2c33,Is father currently working/in school/unemployed/in jail?,Unordered Categorical,employment,category
+m2c34,Does father have physical/mental health conditions that limit work he can do?,Unordered Categorical,health_and_health_behavior,category
+m2c35,Does father have problems keeping job/getting along because of drugs/alcohol?,Unordered Categorical,health_and_health_behavior,category
+m2c36,Has father ever spent any time in jail/prison?,Unordered Categorical,legal_system,category
+cm2finst,Constructed - does father live in the same state as mother at one-year?,Unordered Categorical,parenting,category
+cm2finjail,"Constructed - mother report, father in jail at her 1 yr interview",Unordered Categorical,legal_system,category
+m2d1,Int Chk: Were parents in any kind of rel. at baseline or follow-up?,Binary,romantic_relationships,float64
+m2d2,Int Chk: Does father have any contact with child?,Binary,parenting,float64
+m2d2a,"How often-When w/child, father acts like father you want for child?",Ordered Categorical,parenting,float64
+m2d2b,How often-Can you trust father to take good care of child?,Ordered Categorical,parenting,float64
+m2d2c,How often-Does father respect schedules/rules you make for child?,Ordered Categorical,romantic_relationships,float64
+m2d2d,How often-Does father support you in the way you want to raise child?,Ordered Categorical,romantic_relationships,float64
+m2d2e,How often-You & father talk about problems that come up raising child?,Ordered Categorical,romantic_relationships,float64
+m2d2f,How often-Can count on father to watch child for a few hours?,Ordered Categorical,parenting,float64
+m2d3,How much would you trust father to watch child for a week?,Ordered Categorical,parenting,float64
+m2d3a,Could you trust anyone else to look after child?,Binary,family_and_social_ties,float64
+m2d4,How is your relationship with child's father?,Ordered Categorical,romantic_relationships,float64
+m2d4a,How often do you & child's father argue about things that are important to you?,Ordered Categorical,romantic_relationships,float64
+m2e1,Int Chk: Are mother and father currently living together?,Ordered Categorical,romantic_relationships,float64
+cm2marp,Constructed - Mother married to partner other than father at one-year,Unordered Categorical,romantic_relationships,category
+cm2cohp,Constructed - Mother cohabiting with partner other than father at one-year,Unordered Categorical,romantic_relationships,category
+m2f1,"Not counting yourself, how many people currently live with you?",Ordered Categorical,housing_and_neighborhood,float64
+m2f2b1,Is first person male or female?,Binary,housing_and_neighborhood,float64
+m2f2b2,Is second person male or female?,Binary,housing_and_neighborhood,float64
+m2f2c1,What is first person's age? (Years),Continuous,housing_and_neighborhood,float64
+m2f2c2,What is second person's age? (Years),Continuous,housing_and_neighborhood,float64
+m2f2d1,What is first person's relationship to you?,Unordered Categorical,housing_and_neighborhood,category
+m2f2d2,What is second person's relationship to you?,Unordered Categorical,housing_and_neighborhood,category
+m2f2e1,Is first person working?,Binary,housing_and_neighborhood,float64
+m2f3,Int Chk: Is child mother's only biological child?,Unordered Categorical,health_and_health_behavior,category
+m2f5,"Since focal child's birth, any miscarriages/abortions/stillbirths?",Binary,health_and_health_behavior,float64
+m2f6,"Since child born, have you had another baby/are you pregnant now?",Unordered Categorical,health_and_health_behavior,category
+cm2adult,Constructed - # of adults in HH,Ordered Categorical,housing_and_neighborhood,float64
+cm2kids,Constructed - # of children in HH,Ordered Categorical,housing_and_neighborhood,float64
+cm2gdad,Constructed - Baby's grandfather in the HH,Unordered Categorical,housing_and_neighborhood,category
+cm2gmom,Constructed - Baby's grandmother in the HH,Unordered Categorical,housing_and_neighborhood,category
+cm2biok,Constructed - # of biological children mother has,Ordered Categorical,health_and_health_behavior,float64
+cm2fbir,Constructed - Mother's age at her first birth (year),Continuous,health_and_health_behavior,float64
+m2g1a,In what country/territory was your father born?,Unordered Categorical,demographics,category
+m2g1b,In what country/territory was your mother born?,Unordered Categorical,demographics,category
+m2g1c,Int Chk: Were both parents born in the U.S.?,Binary,demographics,float64
+m2g2,What is the highest grade of school that your bio. mother completed?,Ordered Categorical,family_and_social_ties,float64
+m2g3,What is the highest grade of school that your bio. father completed?,Ordered Categorical,family_and_social_ties,float64
+m2g4a,Agree/disagree: I feel an attachment to my own race/ethnic heritage.,Ordered Categorical,attitudes_and_expectations,float64
+m2g4b,Agree/disagree: I participate in cultural practices of my own group.,Ordered Categorical,attitudes_and_expectations,float64
+m2g4c,How often do you go to a religious service?,Ordered Categorical,family_and_social_ties,float64
+m2g5,Have you received any financial support from other than father since birth?,Binary,finances,float64
+m2g6a,Could you count on someone to loan $200 in the next year?,Binary,family_and_social_ties,float64
+m2g6a1,Could you count on someone to loan $1000 in the next year?,Binary,family_and_social_ties,float64
+m2g6b,Could you count on someone to provide a place to live in the next year?,Binary,family_and_social_ties,float64
+m2g6c,Could you count on someone to help w/emergency child care?,Binary,family_and_social_ties,float64
+m2g6d,Could you count on someone to co-sign for a loan for $1000?,Binary,family_and_social_ties,float64
+m2g7,Was your bio. father involved in your life while growing up?,Ordered Categorical,family_and_social_ties,float64
+m2g9a,Int Chk: Did respondent know her biological father?,Binary,family_and_social_ties,float64
+m2g10a,How well do you get along with father now?,Ordered Categorical,family_and_social_ties,float64
+m2g10c,How well do you get along with mother now?,Ordered Categorical,family_and_social_ties,float64
+m2g10d,Int Chk: Are respondent's parents either deceased or unknown?,Binary,family_and_social_ties,float64
+m2g11,How well does child's father get along with respondent's parents?,Ordered Categorical,family_and_social_ties,float64
+m2g12,How well do you get along with child's father's parents?,Ordered Categorical,family_and_social_ties,float64
+m2g13,How often does child see your parents?,Ordered Categorical,family_and_social_ties,float64
+m2g13a,Are child's father parents both deceased?,Binary,family_and_social_ties,float64
+m2g14,How often does child see father's parents?,Ordered Categorical,family_and_social_ties,float64
+m2h1,Have you moved since child was born?,Binary,housing_and_neighborhood,float64
+m2h2,What is current living situation?,Unordered Categorical,housing_and_neighborhood,category
+m2h5,Is this home in a public housing project?,Binary,finances,float64
+m2h6,"Int Chk: Does respondent live w/family/friends, but pay no rent?",Binary,housing_and_neighborhood,float64
+m2h8a,"Since child's birth, have you received help from - Child supp. collection agency",Binary,finances,float64
+m2h8b,"Since child's birth, have you received help from-Visiting nurse/healthy start?",Binary,finances,float64
+m2h8c,"Since child's birth, have you received help from-Head start/Early Head Start?",Binary,finances,float64
+m2h8d,"Since child's birth, have you received help from-Child care referral agency?",Binary,finances,float64
+m2h8e,"Since child's birth, have you received help from-WIC Program?",Binary,finances,float64
+m2h8f,"Since child's birth, have you received help from-Employment agency?",Binary,finances,float64
+m2h8g,What other kinds of local/state/federal agencies have helped you since child's b,Unordered Categorical,finances,category
+m2h9a1,In past year have you received help from Welfare or TANF?,Binary,finances,float64
+m2h9a2,"In past year, have you received help from food stamps?",Binary,finances,float64
+m2h9a3,"In past year, have you received other help?(unemployment/wrkms comp/etc)",Unordered Categorical,finances,category
+m2h12,Do you or child receive SSI?,Binary,finances,float64
+m2h18c,Did you fill out a federal tax return for previous full year?,Unordered Categorical,finances,category
+m2h19a,"In past year, did you-Receive free food/meals?",Binary,finances,float64
+m2h19b,"In past year, did your-Children go hungry?",Binary,finances,float64
+m2h19c,"In past year, did you-Go hungry?",Binary,finances,float64
+m2h19d,"In past year, did you-Not pay full amount of rent/mortgage?",Binary,finances,float64
+m2h19e,"In past year, did you-Get evicted for not paying rent/mortgage?",Binary,finances,float64
+m2h19f,"In past year, did you-Not pay full gas/oil/electric bill?",Binary,finances,float64
+m2h19g,"In past 12 months, did your-Gas/electric/oil get shut-off or withheld?",Binary,finances,float64
+m2h19h,"In past year, did your-Telephone service get disconnected for nonpayment?",Binary,finances,float64
+m2h19i,"In past year, did you-Borrow money from family/friends to pay bills?",Binary,finances,float64
+m2h19j,"In past year, did you-Move in w/people because of financial problems?",Binary,finances,float64
+m2h19k,In past year did you stay in place not meant for regular housing?,Binary,finances,float64
+m2h19l,"In past year, did-Anyone in house need med but couldn't go because of cost?",Binary,finances,float64
+m2j1,"In general, how is your health?",Ordered Categorical,health_and_health_behavior,float64
+m2j2,Do you have a serious health problem that limits the work you can do?,Binary,health_and_health_behavior,float64
+m2j3,Are you/children covered by Medicaid or other assistance programs or HMO?,Binary,health_and_health_behavior,float64
+m2j5,"In past month, did you smoke cigarettes?",Binary,health_and_health_behavior,float64
+m2j6,"In past month, did you drink alcoholic beverages?",Binary,health_and_health_behavior,float64
+m2j9,"Since child's birth, has drinking/drugs interfered w/how you manage daily?",Unordered Categorical,health_and_health_behavior,category
+m2j10,"Since child's birth,has drinking/drugs interfered w/your personal relationships?",Binary,health_and_health_behavior,float64
+m2j11,"Since child's birth, have you sought help/been treated for drug/alcohol problem?",Binary,health_and_health_behavior,float64
+m2j12,"During past year, have you ever been depressed/sad/blue for 2+ wks in row?",Unordered Categorical,health_and_health_behavior,category
+m2j14,During past year did have you ever lost interest in hobbies/work for 2 wks or,Unordered Categorical,health_and_health_behavior,category
+m2j16,"During past year, was there a month or longer period when you felt tense/anxious",Binary,health_and_health_behavior,float64
+m2j16a,"During past year, did you worry a lot more than most people would?",Binary,health_and_health_behavior,float64
+cm2gad_case,Constructed - Mother meets anxious criteria at one-year (CIDI),Unordered Categorical,health_and_health_behavior,category
+cm2md_case_con,Constructed - Mother meets depression criteria (conservative) at one-year (CIDI),Unordered Categorical,health_and_health_behavior,category
+cm2md_case_lib,Constructed - Mother meets depression criteria (liberal) at one-year (CIDI),Unordered Categorical,health_and_health_behavior,category
+m2k1,Are you currently attending any school/training?,Binary,education_and_school,float64
+m2k3,Have you completed any training/schooling since child was born?,Binary,education_and_school,float64
+m2k4,Have you ever served in the military?,Binary,employment,float64
+m2k5,Did you do any regular work for pay last week?,Binary,employment,float64
+m2k8,Int Chk: Has mother worked since child's birth?,Binary,employment,float64
+m2k8c,Int Chk: Has respondent ever worked for two consecutive weeks?,Binary,employment,float64
+m2k9,How many hours per week do you usually work at current job?,Continuous,employment,float64
+m2k9a,Did/do you work for yourself or someone else?,Binary,employment,float64
+m2k10a,"About how much (do/did) you usually earn in (this/that) job, before taxes?",Continuous,finances,float64
+m2k10ap,You earn this money over what time-span?,Ordered Categorical,finances,float64
+m2k10bc,What do/did you do at this/that job? - broad categories,Unordered Categorical,employment,category
+m2k11a,Do/did you sometimes work-Evenings (6pm-11pm)?,Binary,employment,float64
+m2k11b,Do/did you sometimes work-Nights (11pm-7am)?,Binary,employment,float64
+m2k11c,Do/did you sometimes work-Weekends?,Binary,employment,float64
+m2k11d,Do/did you sometimes work-Different times each week?,Binary,employment,float64
+m2k17a,"In past year, did you-Work off the books/under the table?",Binary,employment,float64
+m2k18a,In the past year did you work in your own business?,Binary,employment,float64
+m2k20a,"In past year, did you-Do anything else to earn money?",Binary,employment,float64
+m2l2,"In past year, have you given any money to friends/relatives?",Binary,finances,float64
+m2l3,Int Chk: Is mother living father or living with a current partner?,Binary,romantic_relationships,float64
+m2l7,Int Chk: Are father & mother currently married/rom. or mother married/rom. w/ano,Binary,romantic_relationships,float64
+cm2hhinc,Constructed - Household income (with imputed values),Continuous,finances,float64
+cm2hhimp,Constructed - Flag variable for household income imputation,Unordered Categorical,finances,category
+cm2povco,Constructed - Poverty ratio - mother's household income/poverty threshold,Continuous,finances,float64
+cm2povca,Constructed - Poverty categories,Ordered Categorical,finances,float64
+cm2span,Constructed - Was the interview conducted in Spanish?,Unordered Categorical,paradata_and_weights,category
+cf3fevjail,"Constructed - father report, father ever in jail by his 3yr interview",Binary,legal_system,float64
+cf3cogsc,Constructed - sum score - WAIS-R similarities subtest,Ordered Categorical,cognitive_and_behavioral_development,float64
+m3a2,How much of the time does the child live with you?,Ordered Categorical,housing_and_neighborhood,float64
+m3a4,What is your relationship with child's father now?,Ordered Categorical,romantic_relationships,float64
+m3a7,"INT CHK: WERE MOTHER AND FATHER MARRIED AT ONE-YEAR, BUT SEPARATED/DIVORCED NOW?",Binary,romantic_relationships,float64
+m3a8,INT CHK: WERE MOTHER AND FATHER ROMANTICALLY INVOLVED AT ONE-YEAR BUT NOT NOW?,Binary,romantic_relationships,float64
+m3a8c,INT CHK: DO MOTHER AND FATHER LIVE TOGETHER ALL OR MOST OF TIME?,Binary,romantic_relationships,float64
+m3a10,"Have you had another baby, adopted a child, or are now pregnant?",Unordered Categorical,health_and_health_behavior,category
+m3a11,"Including child, how many children do you have with father?",Continuous,health_and_health_behavior,float64
+m3a11a,INT CHK: DID MOTHER HAVE NEW BABY WITH SOMEONE OTHER THAN FATHER?,Binary,health_and_health_behavior,float64
+m3a12,Do you have children by someone other than father?,Binary,health_and_health_behavior,float64
+m3a12d,18C ONLY: Were you ever married to someone other than father?,Binary,romantic_relationships,float64
+m3a13,"Before father, how many romantic relationships lasted at least one month?",Continuous,romantic_relationships,float64
+m3a16,"Since last interview, have you had a miscarriage, stillbirth, abortion(s)?",Binary,health_and_health_behavior,float64
+cm3b_age,Constructed - Child age at time of mother interview (months),Continuous,demographics,float64
+cm3relf,Constructed - Mother relationship with father at year three,Ordered Categorical,romantic_relationships,float64
+cm3marf,Constructed - Is mother married to child's father at year three?,Binary,romantic_relationships,float64
+cm3amrf,Constructed - Mother age when married father (years),Continuous,romantic_relationships,float64
+cm3cohf,Constructed - Mother living with (not married) child's father at year three,Binary,romantic_relationships,float64
+cm3alvf,Constructed - Mother age when started living with father (years),Continuous,romantic_relationships,float64
+m3b0,INT CHK: DOES CHILD LIVE WITH MOTHER ALL OR MOST OF TIME?,Binary,housing_and_neighborhood,float64
+m3b1,How do you feel about yourself as a mother to child?,Ordered Categorical,parenting,float64
+m3b2,How is your child's health?,Ordered Categorical,health_and_health_behavior,float64
+m3b3,"Since last interview, how many times have you been apart for a week or more?",Continuous,housing_and_neighborhood,float64
+m3b4a,Days/week: sing songs or nursery rhymes with child?,Ordered Categorical,parenting,float64
+m3b4b,Days/week: hug or show physical affection to child?,Ordered Categorical,parenting,float64
+m3b4c,Days/week: tell child that you love him/her?,Ordered Categorical,parenting,float64
+m3b4d,Days/week: let child help you with simple chores?,Ordered Categorical,parenting,float64
+m3b4e,Days/week: play imaginary games with him/her?,Ordered Categorical,parenting,float64
+m3b4f,Days/week: read stories to child?,Ordered Categorical,parenting,float64
+m3b4g,Days/week: tell stories to child?,Ordered Categorical,parenting,float64
+m3b4h,Days/week: play inside with toys with child?,Ordered Categorical,parenting,float64
+m3b4i,Days/week: tell child you appreciate something he/she did?,Ordered Categorical,parenting,float64
+m3b4j,Days/week: take him/her to visit relatives?,Ordered Categorical,parenting,float64
+m3b4k,Days/week: go to a restaurant/out to eat with him/her?,Ordered Categorical,parenting,float64
+m3b4l,Days/week: assist child with eating?,Ordered Categorical,parenting,float64
+m3b4m,Days/week: put child to bed?,Ordered Categorical,parenting,float64
+m3b5,"In past month, have you spanked child because he/she was misbehaving?",Binary,parenting,float64
+m3b6a,Agree/disagree: being a parent is harder than I thought it would be,Ordered Categorical,parenting,float64
+m3b6b,Agree/disagree: I feel trapped by my responsibilities as a parent,Ordered Categorical,parenting,float64
+m3b6c,Agree/disagree: taking care of my child(ren) is more work than pleasure,Ordered Categorical,parenting,float64
+m3b6d,Agree/disagree: I often feel tired/worn out from raising a family,Ordered Categorical,parenting,float64
+m3b7,Is child currently being cared for by someone other than you (or father)?,Binary,childcare,float64
+m3c1,INT CHK: ARE MOTHER AND FATHER CURRENTLY LIVING TOGETHER?,Binary,romantic_relationships,float64
+m3c5a,How often should father spend one or more hours a day with child?,Ordered Categorical,parenting,float64
+m3c6,Have you ever asked father to spend more time with child?,Binary,parenting,float64
+m3c7a,How often does father look after child when you need to do things?,Ordered Categorical,romantic_relationships,float64
+m3c7b,How often does he run errands for you?,Ordered Categorical,romantic_relationships,float64
+m3c7c,How often does he fix things around your home?,Ordered Categorical,romantic_relationships,float64
+m3c7d,How often does he take child places he/she needs to go?,Ordered Categorical,parenting,float64
+m3c34,Does father have any other children by someone else?,Binary,health_and_health_behavior,float64
+m3c41,"Is father currently working, in school, or unemployed?",Unordered Categorical,employment,category
+m3c41a,INT CHK: DID MOTHER REPORT AT ONE-YEAR FATHER HAD EVER BEEN IN JAIL?,Binary,legal_system,float64
+m3c43,Does father have physical/mental condition limits work he can do?,Binary,health_and_health_behavior,float64
+m3c44,Does father have problems with job/family/friends because of alcohol/drug use?,Binary,health_and_health_behavior,float64
+cm3finjail,"Constructed - mother report, father in jail at her 3yr interview",Binary,legal_system,float64
+m3d0,"INT CHK: WERE PARENTS IN ANY KIND OF RELATIONSHIP AT BASELINE, ONE-YEAR, OR NOW?",Binary,romantic_relationships,float64
+m3d1,INT CHK: DOES FATHER HAVE ANY CONTACT WITH CHILD?,Binary,parenting,float64
+m3d1a,Always/sometimes/rarely true: Father acts like the father you want?,Ordered Categorical,parenting,float64
+m3d1b,Always/sometimes/rarely true: can trust father to take care of child?,Ordered Categorical,parenting,float64
+m3d1c,Always/sometimes/rarely true: Father respects schedules/rules you make?,Ordered Categorical,parenting,float64
+m3d1d,Always/sometimes/rarely true: Father supports way you want to raise child?,Ordered Categorical,romantic_relationships,float64
+m3d1e,Always/sometimes/rarely true: talk about problems raising child?,Ordered Categorical,romantic_relationships,float64
+m3d1f,Always/sometimes/rarely true: count on father to look after child for few hours?,Ordered Categorical,romantic_relationships,float64
+m3d2,How much would you trust father to care for child for one week?,Ordered Categorical,parenting,float64
+m3d3,Could you trust anyone else to look after child?,Binary,family_and_social_ties,float64
+m3d4,How good is your relationship with father?,Ordered Categorical,romantic_relationships,float64
+m3d4a,Have you ever been in program/counseling to help relationship with father?,Binary,romantic_relationships,float64
+m3d4b,"If program/counseling were available for free, how interested would you be?",Ordered Categorical,romantic_relationships,float64
+m3d5,How often do you and father argue?,Ordered Categorical,romantic_relationships,float64
+m3d6,INT CHK: ARE MOTHER AND FATHER CURRENTLY MARRIED OR ROMANTICALLY INVOLVED?,Binary,romantic_relationships,float64
+cm3marp,Constructed - Mother married to partner other than father at year three,Binary,romantic_relationships,float64
+cm3cohp,Constructed - Mother cohabiting with partner other than father at year three,Binary,romantic_relationships,float64
+m3f1,"Not including self, how many people currently live with you?",Continuous,housing_and_neighborhood,float64
+m3f2b1,Is first person male or female?,Binary,housing_and_neighborhood,float64
+m3f2b2,Is second person male or female?,Binary,housing_and_neighborhood,float64
+m3f2c1,What is first person's age? (years),Continuous,housing_and_neighborhood,float64
+m3f2c2,What is second person's age? (years),Continuous,housing_and_neighborhood,float64
+m3f2d1,What is first person's relationship to you?,Unordered Categorical,housing_and_neighborhood,category
+m3f2d2,What is second person's relationship to you?,Unordered Categorical,housing_and_neighborhood,category
+m3f3,Do you have any other biological children who are not living with you now?,Binary,health_and_health_behavior,float64
+cm3adult,Constructed - Number of adults 18 or over in household,Continuous,housing_and_neighborhood,float64
+cm3kids,Constructed - Number of children under 18 in household,Continuous,housing_and_neighborhood,float64
+cm3gdad,Constructed - Grandfather present in household,Binary,housing_and_neighborhood,float64
+cm3gmom,Constructed - Grandmother present in household,Binary,housing_and_neighborhood,float64
+m3h2,Have you received financial help from anyone other than father?,Binary,finances,float64
+m3h3,"If you needed help in next year, could you count on someone to loan $200?",Binary,family_and_social_ties,float64
+m3h4,Is there someone you could count on to provide you with a place to live?,Binary,family_and_social_ties,float64
+m3h5,Is there someone you could count on to provide you with emergency child care?,Binary,family_and_social_ties,float64
+m3h6,"Is there someone to co-sign for a bank loan with you for $1,000?",Binary,family_and_social_ties,float64
+m3h7,How often does child see your parents?,Ordered Categorical,family_and_social_ties,float64
+m3h8,How often does child see father's parents?,Ordered Categorical,family_and_social_ties,float64
+m3i0a,"In past year, have you participated in: group affiliated with your church?",Binary,family_and_social_ties,float64
+m3i0b,"In past year, have you participated in: a service club?",Binary,family_and_social_ties,float64
+m3i0c,"In past year, have you participated in: political, civic, or human rights group?",Binary,family_and_social_ties,float64
+m3i0d,"In past year, have you participated in: labor union or work-related group?",Binary,family_and_social_ties,float64
+m3i0e,"In past year, have you participated in: community organization?",Binary,family_and_social_ties,float64
+m3i0f,"In past year, have you participated in: group working with children?",Binary,family_and_social_ties,float64
+m3i0g,Have you ever participated in a political demonstration?,Binary,family_and_social_ties,float64
+m3i0i,Are you registered to vote?,Binary,family_and_social_ties,float64
+m3i0l,How important is it: to vote in elections?,Ordered Categorical,attitudes_and_expectations,float64
+m3i0m,How important is it: to volunteer time to community service?,Ordered Categorical,attitudes_and_expectations,float64
+m3i0n,How important is it: to serve on a jury if called?,Ordered Categorical,attitudes_and_expectations,float64
+m3i0o,How important is it: to report a crime that they witnessed?,Ordered Categorical,attitudes_and_expectations,float64
+m3i0p,How important is it: to be able to speak and understand English?,Ordered Categorical,attitudes_and_expectations,float64
+m3i0q,How important is it: to serve in the military when at war?,Ordered Categorical,attitudes_and_expectations,float64
+m3i1,Have you moved since your child's first birthday?,Binary,housing_and_neighborhood,float64
+m3i2,What is your current housing situation?,Unordered Categorical,housing_and_neighborhood,category
+m3i6a,"In past year, was telephone service ever disconnected?",Binary,finances,float64
+m3i6c,"In past year, was your electricity ever turned off?",Binary,finances,float64
+m3i6e,"Do you use gas or oil to heat your home, or gas for cooking?",Binary,housing_and_neighborhood,float64
+m3i6h,"In past year, has your home been uncomfortably cold for 48 hrs/more?",Binary,housing_and_neighborhood,float64
+m3i6j,"In past year, did you ever have no running water for 48 hrs/more?",Binary,finances,float64
+m3i7a,Since child's first birthday: helped by agency to collect child support?,Binary,finances,float64
+m3i7b,Since child's first birthday: helped by a parenting class?,Binary,finances,float64
+m3i7c,Since child's first birthday: helped by Head Start or Early HS?,Binary,finances,float64
+m3i7d,Since child's first birthday: helped by child care referral agency?,Binary,finances,float64
+m3i7e,Since child's first birthday: helped by WIC?,Binary,finances,float64
+m3i7f,Since child's first birthday: helped by employment office?,Binary,finances,float64
+m3i7g,Since child's first birthday: helped by welfare/job placement office?,Binary,finances,float64
+m3i7j,"If a parenting class available for free, how interested would you be?",Ordered Categorical,parenting,float64
+m3i8a1,"In past year, received help from welfare or TANF?",Binary,finances,float64
+m3i8a2,"In the past year, received help from Food Stamps?",Binary,finances,float64
+m3i8a3,"In past year, have you received any other assistance?",Binary,finances,float64
+m3i14,Do you or child receive Supplemental Security Income (SSI)?,Binary,finances,float64
+m3i21,Did you fill out a federal tax return for 1999 or 2000?,Unordered Categorical,finances,category
+m3i23a,"In past year, did you receive free food or meals?",Binary,finances,float64
+m3i23b,"In past year, did you not pay full rent or mortgage?",Binary,finances,float64
+m3i23c,"In past year, were you evicted from home?",Binary,finances,float64
+m3i23d,"In past year, did you not pay full gas/oil/electricity bill?",Binary,finances,float64
+m3i23e,"In past year, did you borrow money from friends/family?",Binary,finances,float64
+m3i23f,"In past year, did you move in with other people because of financial problems?",Binary,finances,float64
+m3i23g,"In past year, did you stay in shelter/car/abandoned building?",Binary,finances,float64
+m3i23h,"In past year, did someone not see doctor/hospital?",Binary,finances,float64
+m3i23i,"In past year, did you cut back on buying yourself clothes?",Binary,finances,float64
+m3i23j,"In past year, did you work overtime or take second job?",Binary,finances,float64
+m3i24,Have you ever been stopped by police (non-traffic offense)?,Binary,legal_system,float64
+m3i25,Have you been booked or charged with breaking the law?,Binary,legal_system,float64
+m3j0a,"Overall, how satisfied are you with your life?",Ordered Categorical,attitudes_and_expectations,float64
+m3j0b1,How important are romantic relationships to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j0b2,How important is money to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j0b3,How important is sex to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j0b4,How important is work to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j0b5,How important is friendship to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j0b6,How important is religious faith to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j0b7,How important is family relationship to your happiness?,Ordered Categorical,attitudes_and_expectations,float64
+m3j1,"In general, how is your health?",Ordered Categorical,health_and_health_behavior,float64
+m3j2,Do you have any serious health problem that limits the work you can do?,Binary,health_and_health_behavior,float64
+m3j2a,Do you regularly take medication for physical or mental problems?,Binary,health_and_health_behavior,float64
+m3j2c,"In past year, have you stayed overnight at hospital/gone to emergency room?",Binary,health_and_health_behavior,float64
+m3j3,Are you/your child(ren) covered by Medicaid/any government program?,Binary,health_and_health_behavior,float64
+m3j5,"In past year, have you felt sad/depressed for 2 or more weeks in a row?",Unordered Categorical,health_and_health_behavior,category
+m3j9,"In past year, was there 2 week period when you lost interest in most things?",Unordered Categorical,health_and_health_behavior,category
+m3j18,"In past year, did you feel worried/tense/anxious for a month or more?",Binary,health_and_health_behavior,float64
+m3j28,What is the largest number of drinks consumed in a day in past year?,Ordered Categorical,health_and_health_behavior,float64
+m3j36j,Did respondent use one/more drugs?,Binary,health_and_health_behavior,float64
+m3j43a,"In past year, received counseling/therapy for personal problems?",Binary,health_and_health_behavior,float64
+m3j44a,Agree/disagree: I often say what comes into my head without thinking,Ordered Categorical,cognitive_and_behavioral_development,float64
+m3j44b,"Agree/disagree: Often, I don't think enough before I act",Ordered Categorical,cognitive_and_behavioral_development,float64
+m3j44c,Agree/disagree: I often say/do things without considering consequences,Ordered Categorical,cognitive_and_behavioral_development,float64
+m3j44d,Agree/disagree: I often get in trouble because I don't think before I act,Ordered Categorical,cognitive_and_behavioral_development,float64
+m3j44e,Agree/disagree: Plans don't work out because I don't go over them carefully,Ordered Categorical,cognitive_and_behavioral_development,float64
+m3j44f,Agree/disagree: Make up mind without considering situation from all angles,Ordered Categorical,cognitive_and_behavioral_development,float64
+m3j45,Did bio. father ever have periods where depressed 2 weeks or more?,Unordered Categorical,health_and_health_behavior,category
+m3j48,Did bio. father have problems with drinking or drugs?,Binary,family_and_social_ties,float64
+m3j50,Did bio. mother ever have periods where depressed for 2 weeks/more?,Unordered Categorical,health_and_health_behavior,category
+m3j51,Did she have periods of a month/more when nervous/anxious?,Binary,health_and_health_behavior,float64
+m3j52,Did bio. mother have a problem with drinking?,Binary,family_and_social_ties,float64
+m3j53,Did bio. mother have problems with drinking/drugs?,Binary,family_and_social_ties,float64
+m3j54,Did bio. mother attempt suicide?,Binary,health_and_health_behavior,float64
+cm3alc_case,Constructed - Mother alcohol dependence (CIDI),Binary,health_and_health_behavior,float64
+cm3drug_case,Constructed - Mother drug dependence (CIDI),Binary,health_and_health_behavior,float64
+cm3gad_case,Constructed - Mother meets anxious criteria at three-year (CIDI),Binary,health_and_health_behavior,float64
+cm3md_case_con,Constructed - Mother meets depression criteria (conservative) at three-year (CID,Binary,health_and_health_behavior,float64
+cm3md_case_lib,Constructed - Mother meets depression criteria (liberal) at three-year (CIDI),Binary,health_and_health_behavior,float64
+m3r0a,Which best describes the way you are in romantic relationships?,Unordered Categorical,romantic_relationships,category
+m3r0b,Would you attend a program on relationships if it were offered by a church?,Ordered Categorical,finances,float64
+m3r1,What best describes your religion?,Unordered Categorical,family_and_social_ties,category
+m3r9,Agree/disagree: Religious faith is guide for way I treat my family,Ordered Categorical,family_and_social_ties,float64
+m3r10,How often do you attend religious services?,Ordered Categorical,family_and_social_ties,float64
+m3r11,"Since child's birth, had any religious experience that transformed your life?",Binary,family_and_social_ties,float64
+m3k1,Are you currently in school/training program/classes?,Binary,education_and_school,float64
+m3k3,Have you completed training programs/school since child's first birthday?,Binary,education_and_school,float64
+m3k3b,"Since child's 1st birthday, any classes to improve job skills?",Binary,education_and_school,float64
+m3k3c,"Since child's 1st birthday, received employment counseling?",Binary,finances,float64
+m3k4,"Last week, did you do any regular work for pay?",Binary,employment,float64
+m3k10,How many hours/week do you usually work that job?,Continuous,employment,float64
+m3k11,Do you work for yourself or someone else?,Binary,employment,float64
+m3k12,What did you do at this/that job?,Unordered Categorical,employment,category
+m3k13,About how much do/did you earn in this/that job before taxes? ($),Continuous,finances,float64
+m3k13p,Per what time period?,Ordered Categorical,finances,float64
+m3k14a1,Do/did you regularly work: weekdays?,Binary,employment,float64
+m3k14a2,Do/did you regularly work: evenings?,Binary,employment,float64
+m3k14a3,Do/did you regularly work: nights?,Binary,employment,float64
+m3k14a4,Do/did you regularly work: weekends?,Binary,employment,float64
+m3k14a5,Do/did you regularly work: different times each week?,Binary,employment,float64
+m3k14b3,"In addition, do/did you sometimes work: nights?",Binary,employment,float64
+m3k15,Has mother worked since child was born?,Binary,employment,float64
+m3k16a,How often true: My shift/schedule causes extra stress for me/child?,Ordered Categorical,employment,float64
+m3k16b,How often true: Child care problems are difficult to deal with at job?,Ordered Categorical,employment,float64
+m3k16c,How often true: My schedule is flexible to handle family problems?,Ordered Categorical,employment,float64
+m3k17,"In past year, did you work more than one job at a time?",Binary,employment,float64
+m3k22,"In past 3 years, how many regular jobs for 2 or more weeks?",Continuous,employment,float64
+m3k24a,"In past year, did you work off the books/under the table?",Binary,employment,float64
+m3k25a,Did you work in your own business in the past year?,Binary,employment,float64
+m3k27a,"In past year, did you do anything else to earn money?",Binary,employment,float64
+m3l2,"In past year, have you given/loaned money to friends/relatives?",Binary,finances,float64
+m3l3,INT CHK: IS MOTHER LIVING WITH FATHER OR CURRENT PARTNER?,Binary,romantic_relationships,float64
+cm3hhinc,Constructed - Household income (with imputed values),Continuous,finances,float64
+cm3hhimp,Constructed - Flag variable for household income imputation,Unordered Categorical,finances,category
+cm3povco,Constructed - Poverty ratio - mother's household income/poverty threshold,Continuous,finances,float64
+cm3povca,Constructed - Poverty categories,Ordered Categorical,finances,float64
+cm3cogsc,Constructed - sum score - WAIS-R similarities subtest,Ordered Categorical,cognitive_and_behavioral_development,float64
+cm3span,Constructed - Interview conducted in Spanish,Binary,paradata_and_weights,float64
+m4a2,How much of the time does child live with you?,Ordered Categorical,housing_and_neighborhood,float64
+m4a4,What is your relationship with father now?,Ordered Categorical,romantic_relationships,float64
+m4a7,INT CHK:  MOTHER AND FATHER MARRIED AT LAST INTERVIEW BUT SEPARATED OR DIVORCED,Binary,romantic_relationships,float64
+m4a8,INT CHK: WERE MOTHER AND FATHER ROMANTICALLY INVOLVED AT LAST INTERVIEW BUT NOT,Binary,romantic_relationships,float64
+m4a8c,INT CHK: DO MOTHER AND FATHER LIVE TOGETHER ALL/MOST OF TIME OR 7 NIGHTS/WEEK,Binary,romantic_relationships,float64
+m4a10,"Including child, how many children do you have altogether?",Continuous,health_and_health_behavior,float64
+m4a11,INT CHK: WERE MOTHER AND CHILD'S FATHER EVER MARRIED?,Binary,romantic_relationships,float64
+m4a16,"In last 2 yrs, had any pregnancy end in miscarriage/stillbirth/abortion?",Binary,health_and_health_behavior,float64
+cm4b_age,Constructed - Child age at time of mother interview (months),Continuous,demographics,float64
+cm4relf,Constructed - Mother relationship with father at year five,Ordered Categorical,romantic_relationships,float64
+cm4marf,Constructed - Is mother married to child's father at year five?,Binary,romantic_relationships,float64
+cm4amrf,Constructed - Mother age when married father (years),Continuous,romantic_relationships,float64
+cm4cohf,Constructed - Mother living with (not married) child's father at year five,Binary,romantic_relationships,float64
+cm4alvf,Constructed - Mother age when started living with father (years),Continuous,romantic_relationships,float64
+m4b0,INT CHK: DOES CHILD LIVE WITH MOTHER AT LEAST HALF OF THE TIME?,Binary,housing_and_neighborhood,float64
+m4b1,"As a mother to (child), what kind of mother would you say you are?",Ordered Categorical,parenting,float64
+m4b2,"In general, how would you describe child's health?",Ordered Categorical,health_and_health_behavior,float64
+m4b2a,Has a doctor or other health professional ever told you that child has asthma?,Binary,health_and_health_behavior,float64
+m4b2b,"During past year, has child had episode of asthma or an asthma attack?",Binary,health_and_health_behavior,float64
+m4b3,In last 2 yrs # times you & child been separated for a wk+?,Continuous,housing_and_neighborhood,float64
+m4b4a1,Days/week: sing songs or nursery rhymes with child?,Ordered Categorical,parenting,float64
+m4b4a2,Days/week: read stories to child?,Ordered Categorical,parenting,float64
+m4b4a3,Days/week: tell stories to child?,Ordered Categorical,parenting,float64
+m4b4a4,Days/week: play inside with toys such as blocks or legos with child?,Ordered Categorical,parenting,float64
+m4b4a5,Days/week: tell child that you appreciated something child did?,Ordered Categorical,parenting,float64
+m4b4a6,"Days/week: play outside in the yard, park, or a playground with child?",Ordered Categorical,parenting,float64
+m4b4a7,"Days/week: you take child on outing, special activity, or an event?",Ordered Categorical,parenting,float64
+m4b4a8,Days/week: watch TV or video together?,Ordered Categorical,parenting,float64
+m4b4b1,"True/not true: child can't concentrate, can't pay attention for long?",Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b2,True/not true: child can't sit still child is restless and hyperactive?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b3,True/not true: child clings to adults or is too dependent?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b4,True/not true: child cries a lot?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b5,True/not true: child is disobedient?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b6,True/not true: child doesn't get along with other children?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b7,True/not true: child doesn't seem to feel guilty after misbehaving?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b8,True/not true: child has trouble getting to sleep?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b9,"True/not true: child is nervous, high strung, or tense?",Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b10,True/not true: child has a speech problem?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b11,"True/not true: child is stubborn, sullen or irritable?",Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b12,True/not true: child has sudden changes in mood or feelings?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b13,True/not true: child has temper tantrums or a hot temper?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b14,True/not true: child is too fearful or anxious?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b15,"True/not true: child is unhappy, sad, depressed?",Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b16,True/not true: child wants a lot of attention?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b17,True/not true: child is withdrawn child doesn't get involved with others?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b18,True/not true: child feels worthless or inferior?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b4b19,True/not true: child acts too young for his/her age?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4b5,"In past month, have you spanked child because misbehaving or acting up?",Binary,parenting,float64
+m4b6a,Agree/disagree: Being a parent is harder than I thought it would be,Ordered Categorical,parenting,float64
+m4b6b,Agree/disagree: I feel trapped by my responsibilities as a parent,Ordered Categorical,parenting,float64
+m4b6c,Agree/disagree: Taking care of my child(ren) is much more work than pleasure,Ordered Categorical,parenting,float64
+m4b6d,Agree/disagree: I often feel tired/worn out/exhausted from raising a family,Ordered Categorical,parenting,float64
+m4b7,Are public schools in area on summer break?,Binary,education_and_school,float64
+m4b8,"Child attends day care ctr, nursery sch, presch, Head Start, or pre-k regularly?",Binary,childcare,float64
+m4c5a,INT CHK: DOES FATHER SEE CHILD FREQUENTLY?,Binary,parenting,float64
+m4c6,Have you ever asked father to spend more time with child?,Binary,parenting,float64
+m4c6a,Have you ever refused to let father see child?,Binary,parenting,float64
+m4c7,INT CHK: HAS FATHER NOT SPENT ONE OR MORE HOURS WITH CHILD IN PAST MONTH?,Binary,parenting,float64
+m4c7e,INT CHK: DID CHILD LIVE WITH FATHER AT BIRTH AND CURRENTLY LIVING WITH FATHER?,Binary,housing_and_neighborhood,float64
+m4c8,Were mother and father married at last interview?,Binary,romantic_relationships,float64
+m4c24,INT CHK: DOES MOTHER HAVE A FORMAL AGREEMENT WITH FATHER?,Binary,finances,float64
+m4c27,INT CHK: DOES MOTHER HAVE ANY CHILDREN BY SOMEONE OTHER THAN FATHER?,Binary,health_and_health_behavior,float64
+m4c30,Has father had any children with another woman in the last 2 years?,Binary,health_and_health_behavior,float64
+m4c38,Father have phys/mental health condit limit the kind/amt work can do?,Binary,health_and_health_behavior,float64
+m4c39,"Father have problems keeping job, getting along fam/friends b/c alc/drugs?",Binary,health_and_health_behavior,float64
+m4c40a,Agree/disagree: Father often says/does things w/o considering consequences,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4c40b,Agree/disagree: Father often gets into trouble b/c doesn't think before acts,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4c41a,True/not true: father does things that may cause trouble with the law?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4c41b,True/not true: father lies or treats?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4c41c,True/not true: father frequently gets into fights?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4c41d,True/not true: father doesn't seem to feel guilty when he misbehaves?,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4c43a,"Since child’s birth, father felt sad/depressed/lost interest in things?",Binary,health_and_health_behavior,float64
+m4c44a,"Since ch's birth, father had period 1 mo plus when felt worried/tense/anxious?",Binary,health_and_health_behavior,float64
+cm4finjail,"Constructed - mother report, father in jail at mother five-year interview",Binary,legal_system,float64
+cm4fevjail,"Constructed - mother report, father has spent time in jail by mother five-year i",Binary,legal_system,float64
+m4d1,INT CHK: DOES FATHER HAVE ANY CONTACT WITH CHILD?,Binary,parenting,float64
+m4d1a,"True/not true: When father w/child, he acts like father you want for your child",Ordered Categorical,parenting,float64
+m4d1b,True/not true: You can trust father to take good care of child,Ordered Categorical,parenting,float64
+m4d1c,True/not true: Father respects the schedules and rules you make for child,Ordered Categorical,parenting,float64
+m4d1d,True/not true: Father supports you in the way you want to raise child,Ordered Categorical,romantic_relationships,float64
+m4d1e,True/not true: You and father talk about problems that come up with raising chil,Ordered Categorical,parenting,float64
+m4d1f,True/not true: You can count on father to help look after child for a few hours,Ordered Categorical,parenting,float64
+m4d1g,True/not true: You respect father's wishes about how child should be raised,Ordered Categorical,parenting,float64
+m4d1h,True/not true: You are critical of the things father does with child,Ordered Categorical,parenting,float64
+m4d2,"If had go away 1 wk, could not take child, how much would trust father w/child?",Ordered Categorical,parenting,float64
+m4d3,Could you trust anyone else to look after child?,Binary,family_and_social_ties,float64
+m4d4,"In general, how is your relationship with father?",Ordered Categorical,romantic_relationships,float64
+m4d4a,In last 2 yrs participated in prog./counseling to help relationship w/ father?,Binary,romantic_relationships,float64
+m4d8,INT CHK: WERE PARENTS MARRIED OR ROMANTICALLY INVOLVED AT OTHER WAVES BUT NOT NO,Binary,romantic_relationships,float64
+cm4marp,Constructed - Mother married to partner other than father at year five,Binary,romantic_relationships,float64
+cm4cohp,Constructed - Mother cohabiting with partner other than father at year five,Binary,romantic_relationships,float64
+m4f1,"Not including yourself, how many people are currently living with you?",Continuous,housing_and_neighborhood,float64
+m4f2b1,Is first person male or female?,Binary,housing_and_neighborhood,float64
+m4f2b2,Is second person male or female?,Binary,housing_and_neighborhood,float64
+m4f2c1,What is first person's age? (years),Continuous,housing_and_neighborhood,float64
+m4f2c2,What is second person's age? (years),Continuous,housing_and_neighborhood,float64
+m4f2d1,What is first person's relationship to you?,Unordered Categorical,housing_and_neighborhood,category
+m4f2d2,What is second person's relationship to you?,Unordered Categorical,housing_and_neighborhood,category
+m4f3,Do you have any children living apart from you?,Binary,health_and_health_behavior,float64
+cm4adult,Constructed - Number of adults 18 or over in household,Continuous,housing_and_neighborhood,float64
+cm4kids,Constructed - Number of children under 18 in household,Continuous,housing_and_neighborhood,float64
+cm4gdad,Constructed - Grandfather present in household,Binary,housing_and_neighborhood,float64
+cm4gmom,Constructed - Grandmother present in household,Binary,housing_and_neighborhood,float64
+m4h1g,Are both of your parents living?,Unordered Categorical,family_and_social_ties,category
+m4h1i,How do you get along with your parents?,Ordered Categorical,family_and_social_ties,float64
+m4h1j,INT CHK: DOES MOTHER HAVE ANY TYPE OF RELATIONSHIP WITH FATHER?,Binary,romantic_relationships,float64
+m4h1l,How often does child see your parents?,Unordered Categorical,family_and_social_ties,category
+m4h2,Have you received financial help from anyone other than father?,Binary,finances,float64
+m4h3,"If needed help during next yr, could you count on someone to loan you $200?",Binary,family_and_social_ties,float64
+m4h4,Is there someone you could count on to provide you with a place to live?,Binary,family_and_social_ties,float64
+m4h5,Is there someone you could count on to help you with emergency child care?,Unordered Categorical,family_and_social_ties,category
+m4h6,"Is there someone to co-sign for a bank loan with you for $1,000?",Binary,family_and_social_ties,float64
+m4i0j,"In general, how many close friends do you have overall?",Continuous,family_and_social_ties,float64
+m4i0k,Anyone you know you feel very close with/share confidences/feelings/depend on?,Binary,family_and_social_ties,float64
+m4i0l,How many of the families on your block would you say that you know well?,Ordered Categorical,housing_and_neighborhood,float64
+m4i0m1,Likely neighbors intervene if children skipping school & hanging on st.?,Ordered Categorical,housing_and_neighborhood,float64
+m4i0m2,Likely neighbors intervene if children spray painting buildings w/graffiti?,Ordered Categorical,housing_and_neighborhood,float64
+m4i0m3,How likely neighbors intervene if children showing disrespect to an adult?,Ordered Categorical,housing_and_neighborhood,float64
+m4i0m4,How likely neighbors intervene if fight broke out in front of the house?,Ordered Categorical,housing_and_neighborhood,float64
+m4i0m5,Likely neighbors intervene if neighborhood fire station threatened/budget cut?,Ordered Categorical,housing_and_neighborhood,float64
+m4i0n1,Agree/disagree: People around here are willing to help their neighbors,Ordered Categorical,housing_and_neighborhood,float64
+m4i0n2,Agree/disagree: This is a close-knit neighborhood,Ordered Categorical,housing_and_neighborhood,float64
+m4i0n3,Agree/disagree: People in neighborhood generally don't get along with each other,Ordered Categorical,housing_and_neighborhood,float64
+m4i0n4,Agree/disagree: People in this neighborhood do not share the same values,Ordered Categorical,housing_and_neighborhood,float64
+m4i0n5,Agree/disagree: Gangs are a problem in this neighborhood,Ordered Categorical,housing_and_neighborhood,float64
+m4i0o,Ever been afraid to let child go outside b/c violence in your neighborhood?,Unordered Categorical,housing_and_neighborhood,category
+m4i0p,Participate in any groups (sr ctr/social/work group/church/charity/service/comm,Binary,family_and_social_ties,float64
+m4i1,Have you moved in the last two years?,Binary,housing_and_neighborhood,float64
+m4i7a,"In past year, received help from agency to help collect child support?",Binary,finances,float64
+m4i7b,"In past year, you received help from Head Start or Early Head Start?",Binary,finances,float64
+m4i7c,"In past year, received help from a child care referral agency?",Binary,finances,float64
+m4i7d,"In the past year, have you received help from W.I.C.?",Binary,finances,float64
+m4i7e,"In the past year, have you received help from an employment office?",Binary,finances,float64
+m4i7f,"In past year, received help from welfare office or welfare job placement?",Binary,finances,float64
+m4i7h,Have you heard of or attended any marriage promotion programs?,Binary,finances,float64
+m4i8a1,"In the past year, have you received income from welfare or TANF?",Binary,finances,float64
+m4i8a2,"In the past year, have you received income from food stamps?",Binary,finances,float64
+m4i8a3,"In past year, received income/asstnce like unemp insurance/worker's comp?",Binary,finances,float64
+m4i18d,Have you or child received Supplemental Security Income in the past year?,Binary,finances,float64
+m4i21,Did you fill out a federal tax return for 2002 or 2003?,Unordered Categorical,finances,category
+m4i23a,"In past year, receive free food or meals because there wasn't enough money?",Binary,finances,float64
+m4i23b,"In past year, child ever hungry, but you just couldn't afford more food?",Binary,finances,float64
+m4i23c,"In past year, ever hungry, but didn't eat b/c couldn't afford enough food",Binary,finances,float64
+m4i23d,"In past year, did not pay full amt rent/mortgage payments b/c wasn't enough",Binary,finances,float64
+m4i23e,"In past year, evicted from home or apt for not paying the rent or mortgage?",Binary,finances,float64
+m4i23f,"In past year, not pay full amt gas/oil/electric bill b/c  not enough money",Binary,finances,float64
+m4i23g,"In past year, electricity turned off by utility co b/c wasn't enough money?",Binary,finances,float64
+m4i23h,"In past year, borrow money from friends or family to help pay bills?",Binary,finances,float64
+m4i23i,"In past year, you move in w/others (even a little) b/c of financial problem",Binary,finances,float64
+m4i23j,"In past year, stay at shelter/abandoned bldg/car/etc b/c not enough money",Binary,finances,float64
+m4i23k,"In past year, anyone in househld needed dr/hospital but couldn't b/c cost",Binary,finances,float64
+m4i23l,"In past year, cut back buying clothes for yourself b/c wasn't enough money?",Binary,finances,float64
+m4i23m,"In past year, you worked overtime or taken a second job?",Binary,finances,float64
+m4i23n,"In past year, phone service disconnected b/c wasn't enough money?",Binary,finances,float64
+m4i23p1,Agree/disagree: Welfare makes people work less than if there wasn't welfare,Ordered Categorical,attitudes_and_expectations,float64
+m4i23p2,Agree/disagree: Welfare helps people get on feet when facing difficult situation,Ordered Categorical,attitudes_and_expectations,float64
+m4i23p3,Agree/disagree: Welfare encourages young women to have babies before marriage,Ordered Categorical,attitudes_and_expectations,float64
+m4i23p4,Agree/disagree: Welfare helps keep marriages together in times of financial prob,Ordered Categorical,attitudes_and_expectations,float64
+m4i23p5,Agree/disagree: Welfare helps to prevent hunger and starvation,Ordered Categorical,attitudes_and_expectations,float64
+m4i23p6,Agree/disagree: Welfare discourages women who get pregnant from marrying father,Ordered Categorical,attitudes_and_expectations,float64
+m4i23q1,Agree/disagree: The application process to apply for welfare is humiliating,Ordered Categorical,attitudes_and_expectations,float64
+m4i23q2,Agree/disagree: The rules of welfare program take away personal freedom,Ordered Categorical,attitudes_and_expectations,float64
+m4i24,In last 2 yrs (not incl minor traffic) been stopped by police but not arrested?,Binary,legal_system,float64
+m4i25,In last 2 yrs been charged w/ breaking law by police/court?,Binary,legal_system,float64
+m4j0,"In general, how satisfied are you with your life overall?",Ordered Categorical,attitudes_and_expectations,float64
+m4j1,"In general, how is your health?",Ordered Categorical,health_and_health_behavior,float64
+m4j2,Do you have serious health problem limits amt/kind work you can do?,Binary,health_and_health_behavior,float64
+m4j2b,Do you regularly take prescribed medication for health problems?,Binary,health_and_health_behavior,float64
+m4j2c,"In past year, have you stayed overnight in hospital or gone to emerg rm?",Binary,health_and_health_behavior,float64
+m4j2e,How much do you weigh?,Continuous,health_and_health_behavior,float64
+m4j3,Are you/child covered by Medicaid/other pub asst prog/Medicaid HMO?,Binary,health_and_health_behavior,float64
+m4j5,"During past year, been time you felt sad/depressed for 2+ weeks in row?",Unordered Categorical,health_and_health_behavior,category
+m4j9,"In past yr, time 2 weeks+ you lost interest in things that give pleasure?",Unordered Categorical,health_and_health_behavior,category
+m4j18,"In the past month, did you smoke cigarettes?",Binary,health_and_health_behavior,float64
+m4j20,What is largest number drinks you had in single day during past year?,Ordered Categorical,health_and_health_behavior,float64
+m4j24a,"In past year, you received counseling/therapy/treatment for personal probs?",Binary,health_and_health_behavior,float64
+m4j25a1,Agree/disagree: I often say and do things without considering the consequences,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4j25a2,Agree/disagree: I often get into trouble because I don't think before I act,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4j25b1,True/not true: I do things that may cause trouble with the law,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4j25b2,True/not true: I lie or cheat,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4j25b3,True/not true: I frequently get into fights,Ordered Categorical,cognitive_and_behavioral_development,float64
+m4j25b4,True/not true: I don't seem to feel guilty when I misbehave,Ordered Categorical,cognitive_and_behavioral_development,float64
+cm4md_case_con,Constructed - Mother meets depression criteria (conservative) at five-year (CIDI,Binary,health_and_health_behavior,float64
+cm4md_case_lib,Constructed - Mother meets depression criteria (liberal) at five-year (CIDI),Binary,health_and_health_behavior,float64
+m4r1,Agree/disagree: My religious faith is an important guide for my daily life,Ordered Categorical,family_and_social_ties,float64
+m4r2,How often do you attend religious services?,Ordered Categorical,family_and_social_ties,float64
+m4r3,"In last 2 yrs, you had religious experiences that transformed your life?",Binary,family_and_social_ties,float64
+m4k1,"Are you currently attending any school, any training programs or any place?",Binary,education_and_school,float64
+m4k3,Have you completed any training prog or any yrs schooling in last 2 yrs?,Binary,education_and_school,float64
+m4k3b,"In the last 2 years, have you taken any classes to improve your job skills?",Binary,education_and_school,float64
+m4k3c,"In the last 2 years, have you received any kind of employment counseling?",Binary,finances,float64
+m4k4,"Last week, did you do any regular work for pay?",Binary,employment,float64
+m4k10,How many hours do you usually work per week at that job?,Continuous,employment,float64
+m4k11,Do you work for yourself or for someone else in this job?,Binary,employment,float64
+m4k12,What did you do at this/that job?,Unordered Categorical,employment,category
+m4k13,"How much you usual earn in job, before taxes and deductions? ($)",Continuous,finances,float64
+m4k13p,"How much you usual earn in job, before taxes and deductions? (per)",Ordered Categorical,finances,float64
+m4k14a1,"At your primary job, do you regularly work weekdays?",Binary,employment,float64
+m4k14a2,"At your primary job, do you regularly work evenings (6pm-11pm)?",Binary,employment,float64
+m4k14a3,"At your primary job, do you regularly work nights (11pm-7am)?",Binary,employment,float64
+m4k14a4,"At your primary job, do you regularly work weekends?",Binary,employment,float64
+m4k14a5,"At your primary job, do you regularly work different times each week?",Binary,employment,float64
+m4k14b3,"In addition to your regular working shift, do you sometimes also work nights?",Binary,employment,float64
+m4k14b4,"In addition to your regular working shift, do you sometimes also work weekends?",Binary,employment,float64
+m4k15,INT CHK: HAS MOTHER WORKED SINCE CHILD WAS BORN?,Binary,employment,float64
+m4k16a,True/not true: My shift & work schedule cause extra stress for me & child,Ordered Categorical,employment,float64
+m4k16b,True/not true: Where I work is difficult to deal w/child care probs during work,Ordered Categorical,employment,float64
+m4k16c,True/not true: In my work sched I have enough flexibility to handle family needs,Ordered Categorical,employment,float64
+m4k17,Ever time in past year you worked more than 1 regular job at the same time?,Binary,employment,float64
+m4k22,"In past year, how many reg jobs have you had that lasted 2 weeks or more?",Continuous,employment,float64
+m4k24a,"During the past year, did you work in your own business?",Binary,employment,float64
+m4k26a,"During the past year, did you do anything else to earn money?",Binary,employment,float64
+m4l2,In past year have you given/loaned any money to friends or relatives?,Binary,finances,float64
+m4l3,INT CHK: IS MOTHER LIVING WITH FATHER OR CURRENT PARTNER?,Binary,romantic_relationships,float64
+cm4hhinc,Constructed - Household income (with imputed values),Continuous,finances,float64
+cm4povco,Constructed - Poverty ratio - mother's household income/poverty threshold,Continuous,finances,float64
+cm4povca,Constructed - Poverty categories,Ordered Categorical,finances,float64
+cm4span,Constructed - Interview conducted in Spanish,Binary,paradata_and_weights,float64
+m5a2,A2. Confirm how much time child lives with respondent,Ordered Categorical,housing_and_neighborhood,float64
+m5a4,A4. Your relationship with the child's biofather now,Unordered Categorical,romantic_relationships,category
+m5a5,"A5. Not including yourself and child, number of people currently living with you",Unordered Categorical,housing_and_neighborhood,category
+m5a5b01,A5B. Gender of household member,Binary,housing_and_neighborhood,float64
+m5a5c01,A5C. Age of household member,Continuous,housing_and_neighborhood,float64
+m5a5d01,A5D. Household member's relationship to you,Unordered Categorical,housing_and_neighborhood,category
+m5a7,A7. Any children that have died,Binary,demographics,float64
+m5a8,A8. Confirm number of biological children.,Binary,health_and_health_behavior,float64
+m5a8b01,A8B. First name of father of biological child n,Unordered Categorical,health_and_health_behavior,category
+m5a8f01,A8F. Your relationship with the father at biological child's birth,Ordered Categorical,romantic_relationships,float64
+m5e1g,E1G. Both of mother's parents living,Unordered Categorical,family_and_social_ties,category
+m5e2,E2. Financial help or money from anyone other than father,Binary,finances,float64
+m5e3,E3. Mother could count on someone to loan her $200 during the next year,Binary,family_and_social_ties,float64
+m5e4,E4. Mother could count on someone to provide her with a place to live,Binary,family_and_social_ties,float64
+m5e5,E5. Mother could count on someone to help her with emergency child care,Unordered Categorical,family_and_social_ties,category
+m5e6,E6. Mother could count on someone to co-sign for a bank loan for $1000,Binary,family_and_social_ties,float64
+m5e6b,E6B. Someone would pay for child's extracurricular activities mother can't affor,Binary,family_and_social_ties,float64
+m5e7,E7. Any special person mother feels close with and can depend on,Binary,family_and_social_ties,float64
+m5f1,F1. Mother has moved in the last four years,Binary,housing_and_neighborhood,float64
+m5f7a,F7A. Received help from an employment office in past 12 months,Binary,finances,float64
+m5f7b,F7B. Received help from a welfare office or welfare job placement in past 12 mon,Binary,finances,float64
+m5f7c,F7C. Received help from any other agency in past 12 months,Binary,finances,float64
+m5f8a1,F8A1. Received income from welfare/TANF in last 12 months,Binary,finances,float64
+m5f8a2,F8A2. Received income from food stamps/EBT in last 12 months,Binary,finances,float64
+m5f8a3,F8A3. Received income from other assistance in last 12 months,Binary,finances,float64
+m5f18d,F18D. You or child received Supplemental Security Income in the past 12 months,Binary,finances,float64
+m5f21,F21. Filled out a federal tax return for 2005 or 2006,Unordered Categorical,finances,category
+m5f23b,F23B. Were hungry but didn't eat because couldn't afford food in past 12 months,Binary,finances,float64
+m5f23d,F23D. Were evicted from home/apartment for not paying rent in past 12 months,Binary,finances,float64
+m5f23f,F23F. Gas/electric service turned off because not enough money in past 12 months,Binary,finances,float64
+m5f23g,F23G. Borrowed money from friends/family to help pay bills in past 12 months,Binary,finances,float64
+m5f23h,F23H. Moved in with other people because of financial problems in past 12 months,Binary,finances,float64
+m5f23i,F23I. Stayed at shelter/other place not meant for regular housing in past 12 mon,Binary,finances,float64
+m5f23j,F23J. Someone in hh needed to see doctor but couldn't because of cost in past 12,Binary,finances,float64
+m5f24,F24. You were stopped by police but not picked up/arrested since last interview,Binary,legal_system,float64
+m5f25,F25. You have been booked/charged with breaking a law since last interview,Binary,legal_system,float64
+m5g0,G0. How satisfied you are with your life overall,Ordered Categorical,attitudes_and_expectations,float64
+m5g1,G1. Your health status in general,Ordered Categorical,health_and_health_behavior,float64
+m5g2,G2. You have a serious health problem that limits the work you can do,Binary,health_and_health_behavior,float64
+m5g2b,G2B. You regularly take prescribed medication for physical/mental health problem,Binary,health_and_health_behavior,float64
+m5g2c,G2C. Have stayed overnight in hospital or gone to ER in past 12 months,Binary,health_and_health_behavior,float64
+m5g2e,G2E. You are currently covered by any type of health insurance,Binary,health_and_health_behavior,float64
+m5g3,G3. Felt sad/blue/depressed for 2 or more weeks in a row during past 12 months,Unordered Categorical,health_and_health_behavior,category
+m5g16a,G16A. I have little control over the things that happen to me,Ordered Categorical,attitudes_and_expectations,float64
+m5g16b,G16B. There is really no way I can solve some of the problems I have,Ordered Categorical,attitudes_and_expectations,float64
+m5g16c,G16C. There is little I can do to change many of the important things in my life,Ordered Categorical,attitudes_and_expectations,float64
+m5g16d,G16D. I often feel helpless in dealing with problems,Ordered Categorical,health_and_health_behavior,float64
+m5g16e,G16E. Sometimes I feel that I’m being pushed around,Ordered Categorical,attitudes_and_expectations,float64
+m5g17,G17. You smoked cigarettes in the past month,Binary,health_and_health_behavior,float64
+m5g19,G19. The largest number of drinks you had in any single day in past 12 months,Ordered Categorical,health_and_health_behavior,float64
+m5g24,G24. Ever had a spell/attack when you felt frightened/anxious/uneasy,Binary,health_and_health_behavior,float64
+m5g25,G25. Ever had a period of 1 mo. or more when most of time you felt worried/anxio,Binary,health_and_health_behavior,float64
+m5g32,G32. Ever period of at least 2 days when so happy/excited you got into trouble,Binary,health_and_health_behavior,float64
+m5g33,G33. Ever period of several days when so irritable that you threw/broke things,Binary,health_and_health_behavior,float64
+m5g34,G34. Age when you first got your period,Continuous,health_and_health_behavior,float64
+m5g35,G35. Age when you had sexual intercourse for the first time,Continuous,health_and_health_behavior,float64
+m5h1,H1. My religious faith is an important guide for my daily life,Ordered Categorical,family_and_social_ties,float64
+m5h2,H2. Frequency you attend religious services,Ordered Categorical,family_and_social_ties,float64
+m5h3,H3. You had a religious experience that transformed your life since last intervi,Binary,family_and_social_ties,float64
+m5i1,I1. You are currently attending any school/trainings program/classes,Binary,education_and_school,float64
+m5i3,I3. Have completed training programs or years of schooling since last interview,Binary,education_and_school,float64
+m5i3b,I3B. You have taken classes to improve job skills since last interview,Binary,education_and_school,float64
+m5i3c,I3C. You received any kind of employment counseling since last interview,Binary,finances,float64
+m5i4,I4. You did regular work for pay last week,Binary,employment,float64
+m5i24a,I24A. You worked in your own business during past 12 months,Binary,employment,float64
+m5i26a,I26A. You did something else to earn money during past 12 months,Binary,employment,float64
+m5j2,J2. You gave/loaned money to friends/relatives in past 12 months,Binary,finances,float64
+cm5hhsize,Num. of people in mother's hh -Includes mother & foc. child (if lives with mothe,Continuous,housing_and_neighborhood,float64
+cm5gmom,Constructed -- Focal child's grandmother lives in biomom's household,Binary,housing_and_neighborhood,float64
+cm5gdad,Constructed -- Focal child's grandfather lives in biomom's household,Binary,housing_and_neighborhood,float64
+cm5adult,Number of adults (18+) in mother's hh -Includes mother,Continuous,housing_and_neighborhood,float64
+cm5kids,Number of children (<18) in mother's hh -Includes focal (if lives with mother),Continuous,housing_and_neighborhood,float64
+m5e8_0,E8_0. You could ask no one for help/advice,Binary,family_and_social_ties,float64
+m5e8_1,E8_1. You could ask your parents for help/advice,Binary,family_and_social_ties,float64
+m5e8_2,E8_2. You could ask child's father for help/advice,Binary,family_and_social_ties,float64
+m5e8_3,E8_3. You could ask child's father's parents/relatives for help/advice,Binary,family_and_social_ties,float64
+m5e8_4,E8_4. You could ask other relatives for help/advice,Binary,family_and_social_ties,float64
+m5e8_5,E8_5. You could ask friends/neighbors/co-workers for help/advice,Binary,family_and_social_ties,float64
+m5e8_6,E8_6. You could ask your partner/spouse for help/advice,Binary,family_and_social_ties,float64
+m5e8_7,E8_7. You could ask your partner/spouse's parents/relatives for help/advice,Binary,family_and_social_ties,float64
+m5e9_0,E9_0. Child could ask no one for help/advice other than you,Binary,family_and_social_ties,float64
+m5e9_1,E9_1. Child could ask your parents for help/advice,Binary,family_and_social_ties,float64
+m5e9_2,E9_2. Child could ask child's father for help/advice,Binary,family_and_social_ties,float64
+m5e9_3,E9_3. Child could ask child's father's parents/relatives for help/advice,Binary,family_and_social_ties,float64
+m5e9_4,E9_4. Child could ask other relatives for help/advice,Binary,family_and_social_ties,float64
+m5e9_5,E9_5. Child could ask friends/neighbors/co-workers for help/advice,Binary,family_and_social_ties,float64
+m5e9_6,E9_6. Child could ask your partner/spouse for help/advice,Binary,family_and_social_ties,float64
+m5e9_7,E9_7. Child could ask your partner/spouse's parents/relatives for help/advice,Binary,family_and_social_ties,float64
+n5a1,A1. Non-parental caregiver's relationship to child,Unordered Categorical,housing_and_neighborhood,category
+n5a7,A7. Person child mainly lived with before here,Unordered Categorical,housing_and_neighborhood,category
+n5a17,A17. Amount of payment received altogether last month,Continuous,finances,float64
+n5b2a,B2A. Number of days mother has seen child in past 30 days,Continuous,parenting,float64
+n5d3c_2,D3C_2. Age of 2nd person in household,Continuous,housing_and_neighborhood,float64
+n5d3d_2,D3D_2. Relation of NPCG to 2nd person in household,Unordered Categorical,housing_and_neighborhood,category
+p5h1,H1. Description of child's health,Ordered Categorical,health_and_health_behavior,float64
+p5h1a,H1A. Wheezing or whistling in child's chest,Binary,health_and_health_behavior,float64
+p5h1b,H1B. Child diagnosed with asthma by doctor or health professional,Binary,health_and_health_behavior,float64
+p5h4,H4. Child has been tested for lead poisoning,Binary,health_and_health_behavior,float64
+p5h6,H6. Number of times child had regular check-up,Ordered Categorical,health_and_health_behavior,float64
+p5h7,H7. Child has a usual place for routine health care,Binary,health_and_health_behavior,float64
+p5h8,H8. Place child usually goes for health care,Unordered Categorical,health_and_health_behavior,category
+p5h9,"H9. Number of times child saw doctor/nurse due to illness, accident, injury",Continuous,health_and_health_behavior,float64
+p5h10,H10. Number of times child taken to emergency room in last 12 months,Continuous,health_and_health_behavior,float64
+p5h11,H11. Child has stayed overnight in hospital in last 12 months,Binary,health_and_health_behavior,float64
+p5h13,"H13. Child covered by Medicaid or a public, federal or state program",Binary,health_and_health_behavior,float64
+p5h14,H14. Child covered by private health insurance plan,Binary,health_and_health_behavior,float64
+p5h15,H15. PCG/Bio Parent smokes,Binary,health_and_health_behavior,float64
+p5h15a,H15A. Anyone else in household smoke,Binary,health_and_health_behavior,float64
+p5h15c,H15C. Hours a day child spends with someone who is smoking,Continuous,health_and_health_behavior,float64
+p5h16,H16. Last time child saw a dentist for regular check-up,Ordered Categorical,health_and_health_behavior,float64
+p5h16a,H16A. Number of dental fillings child has had,Continuous,health_and_health_behavior,float64
+p5h16b,H16B. Took child to dentist because of an emergency,Binary,health_and_health_behavior,float64
+p5h17,H17. Noticed that child's growth spurt started,Ordered Categorical,health_and_health_behavior,float64
+p5h17a,H17A. Noticed growth of underarm/pubic hair,Ordered Categorical,health_and_health_behavior,float64
+p5h17b,"H17B. Have you noticed any changes in her/his skin, especially pimples?",Ordered Categorical,health_and_health_behavior,float64
+p5h23,H23. Child's physical development compared to other boys or girls,Ordered Categorical,health_and_health_behavior,float64
+p5i1a,I1A. Frequency you did household chores with child in past month,Ordered Categorical,parenting,float64
+p5i1b,I1B. Frequency you played sports or outdoor activities with child in past month,Ordered Categorical,parenting,float64
+p5i1c,I1C. Frequency you watch TV or videos with child in past month,Ordered Categorical,parenting,float64
+p5i1d,I1D. Frequency you played video or computer games with child in past month,Ordered Categorical,parenting,float64
+p5i1e,I1E. Frequency you read books or talked about books with child in past month,Ordered Categorical,parenting,float64
+p5i1f,I1F. Frequency you participated in indoor activities with child in past month,Ordered Categorical,parenting,float64
+p5i1g,I1G. Frequency you talked about current events with child in past month,Ordered Categorical,parenting,float64
+p5i1h,I1H. Frequency you talked about child's day with child in past month,Ordered Categorical,parenting,float64
+p5i1i,I1I. Frequency you made sure child's homework was complete in past month,Ordered Categorical,parenting,float64
+p5i1j,I1J. Frequency you helped child with homework in past month,Ordered Categorical,parenting,float64
+p5i2a,I2A. Child participated in athletic activities in past year,Binary,family_and_social_ties,float64
+p5i2b,"I2B. Child participated in music lessons, art class, or performing arts in past",Binary,family_and_social_ties,float64
+p5i2c,I2C. Child participated in church or religious groups in past year,Binary,family_and_social_ties,float64
+p5i2d,I2D. Child participated in clubs like scouts or programs at YMCA in past year,Binary,family_and_social_ties,float64
+p5i2e,I2E. Child participated in academic activities like tutoring or math lab in past,Binary,family_and_social_ties,float64
+p5i3,I3. Amount of time child watches TV or videos on a weekday,Continuous,cognitive_and_behavioral_development,float64
+p5i4,I4. Amount of time child watches TV or videos on a weekend day,Continuous,cognitive_and_behavioral_development,float64
+p5i5,I5. Amount of time child plays outdoors on typical weekday,Continuous,cognitive_and_behavioral_development,float64
+p5i6,I6. Amount of time child plays outdoors on typical weekend day,Continuous,cognitive_and_behavioral_development,float64
+p5i7,I7. Amount of time child spends doing homework on weekday,Continuous,cognitive_and_behavioral_development,float64
+p5i8,I8. Amount of time child spends doing homework on weekend day,Continuous,cognitive_and_behavioral_development,float64
+p5i9,I9. Child has regular bed time during the week,Binary,parenting,float64
+p5i10,I10. Hour when child usually goes to bed,Continuous,parenting,float64
+p5i10a,I10A. Minutes when child usually goes to bed,Continuous,parenting,float64
+p5i10b,I10B. AM or PM when child usually goes to bed,Binary,parenting,float64
+p5i11,I11. Number of weeknights child goes to bed at said time,Ordered Categorical,parenting,float64
+p5i12,I12. Number of hours child sleeps on weeknights,Continuous,parenting,float64
+p5i13,I13. Number of TVs in home,Continuous,housing_and_neighborhood,float64
+p5i14,I14. Child has TV in bedroom,Binary,housing_and_neighborhood,float64
+p5i15,I15. Number of hours TV is on,Continuous,housing_and_neighborhood,float64
+p5i16,I16. Talked about TV programs with child in past 2 weeks,Binary,parenting,float64
+p5i17,I17. Have a computer in the home,Binary,housing_and_neighborhood,float64
+p5i19,I19. Child has desk or table to do homework,Binary,housing_and_neighborhood,float64
+p5i20a,I20A. Child has access to 10 books at home,Binary,housing_and_neighborhood,float64
+p5i20b,I20B. Number of books that belong to child,Ordered Categorical,housing_and_neighborhood,float64
+p5i20c,I20C. Child has a dictionary,Binary,housing_and_neighborhood,float64
+p5i21a,I21A. Child read book for fun in the last three months,Binary,cognitive_and_behavioral_development,float64
+p5i21b,I21B. You read book for fun in the last three months,Binary,cognitive_and_behavioral_development,float64
+p5i22a,I22A. You can't hear yourself think in home,Ordered Categorical,housing_and_neighborhood,float64
+p5i22b,I22B. Home is a real zoo,Ordered Categorical,housing_and_neighborhood,float64
+p5i22c,I22C. Children have a regular bedtime routine,Ordered Categorical,parenting,float64
+p5i22d,I22D. You are usually able to stay on top of things,Ordered Categorical,health_and_health_behavior,float64
+p5i22e,I22E. The atmosphere in your house is calm,Ordered Categorical,housing_and_neighborhood,float64
+p5i23,"I23. Number of child's close friends you know by sight, first and last name",Ordered Categorical,parenting,float64
+p5i24,"I24. Number of child's close friends' parents you know by sight, first and last",Ordered Categorical,parenting,float64
+p5i25,I25. Number of child's close friends you saw last week,Continuous,parenting,float64
+p5i26,I26. Frequency you know what child does during free time,Ordered Categorical,parenting,float64
+p5i27,I27. Frequency you know how child spends money,Ordered Categorical,parenting,float64
+p5i28,I28. Number of mornings child eats breakfast in week,Ordered Categorical,parenting,float64
+p5i29,I29. Number of nights family eats dinner together,Ordered Categorical,housing_and_neighborhood,float64
+p5i30a,I30A. Confirm where BioF lives,Unordered Categorical,housing_and_neighborhood,category
+p5j1,J1. Child is a picky eater,Ordered Categorical,health_and_health_behavior,float64
+p5j2a,J2A. Number of servings of milk child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2b,J2B. Number of servings of other dairy products child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2c,J2C. Number of servings child has of fruit juice on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2d,J2D. Number of servings of diet soda child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2e,J2E. Number of servings of regular soda child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2f,J2F. Number of servings of fresh fruit or vegetables child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2g,J2G. Number of servings of candy or sweets child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2h,J2H. Number of servings of frozen or canned vegetables child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2i,J2I. Number of servings of snack foods or chips child has on typical day,Ordered Categorical,health_and_health_behavior,float64
+p5j2j,"J2J. Number of servings of starches (bread, cereal) child has on typical day",Ordered Categorical,health_and_health_behavior,float64
+p5j3,J3. Times per week child eats a meal from a 'fast food' restaurant,Ordered Categorical,health_and_health_behavior,float64
+p5j4a,J4A. Child receives free or reduced price breakfast,Binary,finances,float64
+p5j4b,J4B. Child receives free or reduced price lunch,Binary,finances,float64
+p5j4c,J4C. Child receives free or reduced priced snacks or dinner,Unordered Categorical,finances,category
+p5j7,J7. Amount paid for groceries or food used at home in last month,Continuous,finances,float64
+p5j7a,J7A. Time frame for grocery expenses,Ordered Categorical,finances,float64
+p5j8,J8. Any take out or food delivered in last month that is not included in amount,Binary,finances,float64
+p5j10,J10. Amount of money spent eating out in last month,Continuous,finances,float64
+p5j11,J11. Where you shop for groceries most,Unordered Categorical,housing_and_neighborhood,category
+p5j12,J12. Type of transportation used to get to grocery store,Unordered Categorical,housing_and_neighborhood,category
+p5j13,J13. Time it takes to get to grocery store,Ordered Categorical,housing_and_neighborhood,float64
+p5k1a,K1A. Taking care of children is harder than I thought it would be,Ordered Categorical,parenting,float64
+p5k1b,K1B. I feel trapped by my responsibilities as a parent,Ordered Categorical,parenting,float64
+p5k1c,K1C. I find taking care of my child is much more work than pleasure,Ordered Categorical,parenting,float64
+p5k1d,"K1D. I often feel tired, worn out, or exhausted from raising a family",Ordered Categorical,parenting,float64
+p5k1e,K1E. Rating of self as Caregiver/Parent,Ordered Categorical,parenting,float64
+p5k1f,K1F. Rating of closeness felt with child,Ordered Categorical,parenting,float64
+p5k1g,K1G. Rating of how well share ideas/talk with child,Ordered Categorical,parenting,float64
+p5l1,L1. Grade in which child is currently/was last enrolled in school,Ordered Categorical,education_and_school,float64
+p5l1a,L1A. Type of school child attended last school year,Unordered Categorical,education_and_school,category
+p5l2,L2. Child's school is within five miles of your home,Binary,education_and_school,float64
+p5l3a,L3A. Attended an open house or back-to-school night in this/last school year,Ordered Categorical,education_and_school,float64
+p5l3b,"L3B. Attended a meeting of a PTA, PTO, or parent-teacher organization in this/la",Ordered Categorical,education_and_school,float64
+p5l3c,L3C. Gone to a parent-teacher conference with child’s teacher in this/last schoo,Ordered Categorical,education_and_school,float64
+p5l3d,L3D. Attended a school or class event in which child participated in this/last s,Ordered Categorical,education_and_school,float64
+p5l3e,L3E. Attended a school or class event in which child did not participate in this,Ordered Categorical,education_and_school,float64
+p5l3f,L3F. Volunteered at the school or served on a committee in this/last school year,Ordered Categorical,education_and_school,float64
+p5l3g,L3G. Met with a school counselor in this/last school year,Ordered Categorical,education_and_school,float64
+p5l3h,L3H. Visited child's classroom in this/last school year,Ordered Categorical,education_and_school,float64
+p5l3i,L3I. Had a conference with child’s school principal in this/last school year,Ordered Categorical,education_and_school,float64
+p5l3j,"L3J. Gone to a workshop or meeting about health, nutrition, or safety issues in",Ordered Categorical,education_and_school,float64
+p5l4a,L4A. Talk in person with any parents of children in class,Binary,education_and_school,float64
+p5l4c,L4C. Talk on the phone with any parents of children in class,Binary,education_and_school,float64
+p5l5,L5. Number of days per week you drop off or pick up child,Continuous,education_and_school,float64
+p5l10,L10. Number of schools child attended since first grade,Continuous,education_and_school,float64
+p5l11,L11. Number of times child was absent from school during school year,Ordered Categorical,education_and_school,float64
+p5l13a,L13A. Individual tutoring in reading or math,Binary,education_and_school,float64
+p5l13b,L13B.  Small group program in reading or math,Binary,education_and_school,float64
+p5l13c,L13C. English as Second Language small group program,Binary,education_and_school,float64
+p5l13d,L13D. In-class English as Second Language,Binary,education_and_school,float64
+p5l13e,L13E.  Learning a language other than English,Binary,education_and_school,float64
+p5l13f,L13F. Gifted and talented program,Binary,education_and_school,float64
+p5l13g,L13G. Individual or group counseling from a trained professional,Binary,education_and_school,float64
+p5l13h,L13H. Special education or related services,Binary,education_and_school,float64
+p5l14,L14. Child has been required by the school to attend summer school,Binary,education_and_school,float64
+p5l15,L15. Child has repeated any grades,Binary,education_and_school,float64
+p5l17a,L17A. Discussed behavioral or social problems with child's teacher in this/last,Binary,education_and_school,float64
+p5l17b,L17B. Discussed academic problems with child's teacher in this/last school year,Binary,education_and_school,float64
+p5l17c,L17C. Discussed tardiness or absences with child's teacher in this/last school y,Binary,education_and_school,float64
+p5l17d,L17D. Discussed homework not done with child's teacher in this/last school year,Binary,education_and_school,float64
+p5l17e,L17E. Discussed child's health or medications with child's teacher in this/last,Binary,education_and_school,float64
+p5l17f,L17F. Discussed which teacher your child is assigned to with child's teacher in,Binary,education_and_school,float64
+p5l17g,L17G. Discussed child with teacher for some other reason in this/last school yea,Binary,education_and_school,float64
+p5l18,L18. Who usually initiated the contact,Unordered Categorical,education_and_school,category
+p5l21a,L21A. Current school same as school for 1st grade,Binary,education_and_school,float64
+p5l23,L23. School in 1st grade public or private,Binary,education_and_school,float64
+p5l26,L26. Full or half day kindergarten,Binary,education_and_school,float64
+p5m1,M1. Number of families on block know well,Ordered Categorical,housing_and_neighborhood,float64
+p5m2a,M2A. Neighbors get involved if skipping school,Ordered Categorical,housing_and_neighborhood,float64
+p5m2b,M2B. Neighbors get involved if spray painting buildings,Ordered Categorical,housing_and_neighborhood,float64
+p5m2c,M2C. Neighbors get involved if disrespect adult,Ordered Categorical,housing_and_neighborhood,float64
+p5m2d,M2D. Neighbors get involved if fight broke out in front of house,Ordered Categorical,housing_and_neighborhood,float64
+p5m3a,M3A. Amount agree people willing to help their neighbors,Ordered Categorical,housing_and_neighborhood,float64
+p5m3b,M3B. Amount agree close knit neighborhood,Ordered Categorical,housing_and_neighborhood,float64
+p5m3c,M3C. Amount agree people in neighborhood do not get along,Ordered Categorical,housing_and_neighborhood,float64
+p5m3e,M3E. Amount agree gangs are problem in neighborhood,Ordered Categorical,housing_and_neighborhood,float64
+p5m4,M4. Afraid to let child go outside because of violence in neighborhood,Binary,housing_and_neighborhood,float64
+p5m5a,"M5A. In past year how often did you see person get hit, slapped, punched",Ordered Categorical,housing_and_neighborhood,float64
+p5m5b,M5B. In past year how often did you see person attacked with weapon,Ordered Categorical,housing_and_neighborhood,float64
+p5m5c,M5C. In past year how often did you see person shot,Ordered Categorical,housing_and_neighborhood,float64
+p5l8_1,l8_1. School included Kindergarten,Binary,education_and_school,float64
+p5l8_2,l8_2. School included 1st grade,Binary,education_and_school,float64
+p5l8_3,l8_3. School included 2nd grade,Binary,education_and_school,float64
+p5l8_4,l8_4. School included 3rd grade,Binary,education_and_school,float64
+p5l8_5,l8_5. School included 4th grade,Binary,education_and_school,float64
+p5l8_6,l8_6. School included 5th grade,Binary,education_and_school,float64
+p5l8_7,l8_7. School included 6th grade,Binary,education_and_school,float64
+p5l8_8,l8_8. School included 7th grade,Binary,education_and_school,float64
+p5l8_9,l8_9. School included 8th grade,Binary,education_and_school,float64
+p5l8_10,l8_10. School included 9th grade,Binary,education_and_school,float64
+p5l8_11,l8_11. School included 10th grade,Binary,education_and_school,float64
+p5l8_12,l8_12. School included 11th grade,Binary,education_and_school,float64
+p5l8_13,l8_13. School included 12th grade,Binary,education_and_school,float64
+o5d2,D2. Child had washed or bathed,Ordered Categorical,health_and_health_behavior,float64
+o5d3,D3. Condition of child's hair,Ordered Categorical,health_and_health_behavior,float64
+o5d4,D4. Child's odor,Ordered Categorical,health_and_health_behavior,float64
+o5d5,D5. Anything else problematic about child's clothing or hygiene,Unordered Categorical,housing_and_neighborhood,category
+o5e1,E1. Parent/PCG spoke twice or more to child during visit,Binary,parenting,float64
+o5e3,E3. Parent/PCG encouraged child to contribute to conversation,Binary,parenting,float64
+o5e6,E6. Parent/PCG's voice conveyed positive feelings,Binary,parenting,float64
+o5e8,E8. Parent/PCG shouted at child during visit,Binary,parenting,float64
+o5e9,E9. Parent/PCG expressed overt annoyance with or hostility toward child,Binary,parenting,float64
+o5e10,E10. Parent/PCG slapped or spanked child during visit,Binary,parenting,float64
+o5e12,E12. Parent/PCG appeared to be calm,Binary,cognitive_and_behavioral_development,float64
+o5e13,"E13. Parent/PCG's speech was distinct, clear, and audible",Binary,cognitive_and_behavioral_development,float64
+o5e14,E14. Parent/PCG initiated verbal exchanges with visitor,Binary,cognitive_and_behavioral_development,float64
+o5e15,E15. Parent/PCG expressed ideas freely and easily,Binary,cognitive_and_behavioral_development,float64
+o5e16,E16. Parent/PCG appeared to understand interviewer's questions,Binary,cognitive_and_behavioral_development,float64
+o5f1,F1. Child displayed positive emotions during visit,Ordered Categorical,cognitive_and_behavioral_development,float64
+o5f2,F2. Child displayed negative emotions during visit,Ordered Categorical,cognitive_and_behavioral_development,float64
+o5g2,G2. Parent/PCG's attention to interviewer,Ordered Categorical,cognitive_and_behavioral_development,float64
+o5g6b,G6B. Parent/PCG appeared uncommunicative,Ordered Categorical,cognitive_and_behavioral_development,float64
+o5g6c,G6C. Parent/PCG appeared anxious/nervous,Ordered Categorical,cognitive_and_behavioral_development,float64
+o5g6d,G6D. Parent/PCG appeared hostile,Ordered Categorical,cognitive_and_behavioral_development,float64
+o5d1_1,D1_1. Child's clothing was dirty-unkempt,Binary,health_and_health_behavior,float64
+o5d1_2,D1_2. Child's clothing was dirty due to playing/eating,Binary,health_and_health_behavior,float64
+o5d1_3,"D1_3. Child's clothing was worn, but mended or not ripped or torn",Binary,housing_and_neighborhood,float64
+o5d1_4,"D1_4. Child's clothing was worn, but not mended, obvious rips/tears",Binary,housing_and_neighborhood,float64
+o5d1_5,D1_5. Child's clothing was too tight for comfortable fit,Binary,housing_and_neighborhood,float64
+o5d1_6,D1_6. Child's clothing was too large,Binary,housing_and_neighborhood,float64
+o5d1_7,D1_7. Child's clothing was too light for indoor temperature (underdressed),Binary,housing_and_neighborhood,float64
+o5d1_8,D1_8. Child's clothing was too warm for indoor temperature (overdressed),Binary,housing_and_neighborhood,float64
+o5d1_10,D1_10. None of the above apply,Binary,cognitive_and_behavioral_development,float64
+o5d1_91,D1_91. Other negative conditions of child's clothing,Binary,health_and_health_behavior,float64
+ch5agem,child's age in months,Continuous,demographics,float64
+ch5cflag,Flag of possible issue with anthropometric or BMI measures,Unordered Categorical,health_and_health_behavior,category
+ch5mhtcm,BioMom's height in cm,Continuous,health_and_health_behavior,float64
+ch5mmis_ht,Mother's height is missing,Binary,health_and_health_behavior,float64
+ch5mmis_wt,Missing weight of mother,Binary,health_and_health_behavior,float64
+ch5mflag,Flag: Possible issues with BioMom height/weight,Unordered Categorical,health_and_health_behavior,category
+cm5span,Constructed - Interview conducted in Spanish,Binary,paradata_and_weights,float64
+cm5relf,Constructed - Mother relationship with father at nine-year follow-up,Unordered Categorical,romantic_relationships,category
+cm5marp,Constructed - Mother married to partner other than father at year nine,Binary,romantic_relationships,float64
+cm5marf,Constructed - Is mother married to child's father at year nine?,Binary,romantic_relationships,float64
+cm5cohf,Constructed - Mother living with child's father at nine-year,Binary,romantic_relationships,float64
+cm5cohp,Constructed - Mother cohabiting with partner other than father at year nine,Binary,romantic_relationships,float64
+cm5b_age,Constructed - Child age at time of mother interview (months),Continuous,demographics,float64
+cm5md_case_con,Constructed - Mother meets depression criteria (conservative) at nine-year (CIDI,Binary,health_and_health_behavior,float64
+cm5md_case_lib,Constructed - Mother meets depression criteria (liberal) at nine-year (CIDI),Binary,health_and_health_behavior,float64
+cm5finjail,"Constructed - mother report, father in jail at mother nine-year interview",Binary,legal_system,float64
+cm5fevjail,"Constructed - mother report, father has spent time in jail by mother nine-year i",Binary,legal_system,float64
+cm5edu,Constructed - Mother's education: year 9,Ordered Categorical,education_and_school,float64
+cm5hhinc,Constructed - Mother's Household income (with imputed values),Continuous,finances,float64
+cm5hhimp,Flag var for household income imputation - mothers,Unordered Categorical,finances,category
+cm5povco,Constructed - Mother's household income/poverty threshold at 9-year,Continuous,finances,float64
+cm5povca,Constructed - Mother's poverty category at 9-year,Ordered Categorical,finances,float64
