@@ -4,10 +4,9 @@ from sklearn.model_selection import train_test_split
 from matplotlib import pyplot
 import numpy as np
 from sklearn.metrics import mean_squared_error, r2_score, brier_score_loss, f1_score, accuracy_score, recall_score, classification_report,roc_auc_score, roc_curve
-
 from pandas.api.types import CategoricalDtype
 
-###########
+
 
 def cols_per_type(X_train,datatype='categorical', 
                   meta=pd.read_csv('../data/FFMetadata_v10.csv',
@@ -232,7 +231,6 @@ def score_classifier(model,target,test,leaderboard,holdout=None):
         f1 = f1_score(y_holdout, yhat)
         print('Holdout F1: %.3f' % f1)
 
-    
 
 # def get_weights(df,target):
 #     weights = df[target].value_counts(normalize=True)
